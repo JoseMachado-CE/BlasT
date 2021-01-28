@@ -36,3 +36,10 @@ Thank you
   * Contact details
   * Form details to get in Contact
   * Customers Testemonials
+### 2. User Stories
+  * A user wants to easily find the service details
+  * A user wants to quickly find what they are looking Form
+  * A user wants to find other customers reviews to feel confident themselves
+  * A user wants to easily find the gym location
+  * A user wants to navigate smooth on the webiste displayed on tablets and cellphones
+  * A user wants to find different social medias associated to the website
