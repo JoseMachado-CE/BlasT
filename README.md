@@ -62,5 +62,6 @@ Thank you
   * The fonts used one the website have been selected from [Google fonts](https://fonts.google.com/) which will proabably work on almost all web browsers
 #### 4.2 Icons
   * All icons used on this website have been selected from [Font Awesome](https://fontawesome.com/)
-  
-
+#### 4.3 Colors
+  * I will add the photo of the color pallet I used on this website below. 
+  ![Color Pallet]()
