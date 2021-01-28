@@ -35,6 +35,7 @@ Thank you
   * Information about who serves the service
   * Contact details
   * Form details to get in Contact
+  * Quality information about prices
   * Customers Testemonials
 ### 2. User Stories
   * A user wants to easily find the service details
