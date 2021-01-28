@@ -64,4 +64,4 @@ Thank you
   * All icons used on this website have been selected from [Font Awesome](https://fontawesome.com/)
 #### 4.3 Colors
   * I will add the photo of the color pallet I used on this website below. 
-  ![Color Pallet]()
+  ![Color Pallet](Wireframes/Color-pallet.png)
