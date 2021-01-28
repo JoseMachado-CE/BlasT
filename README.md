@@ -17,14 +17,22 @@ Thank you
     * [Icons](#icons)
     * [Colors](#colors)
     * [Structure](#structure) 
-  * [Wireframes](#wireframes)
-  * [Features](#features)
+* [Wireframes](#wireframes)
+* [Features](#features)
     * [Existing Features](#existing-features)
     * [Features Left to be implemented](#features-left-to-be-implemented)
-  * [Technologies to use](#technologies-to-use)
+* [Technologies to use](#technologies-to-use)
     * [Languages](#languages)
     * [Tools and libraries](#tools-and-libraries)
-  * [Testing](#testing)
-  * [Credits](#credits)  
+* [Testing](#testing)
+* [Credits](#credits)  
 
   --- 
+## User Experience
+### 1. User Goals
+  * A website with enough content to understand the service being offered
+  * A website with good color contrast 
+  * Information about who serves the service
+  * Contact details
+  * Form details to get in Contact
+  * Customers Testemonials
