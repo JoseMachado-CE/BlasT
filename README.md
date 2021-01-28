@@ -51,3 +51,10 @@ Thank you
   * Good color contrast 
   * Quick way to contact the seller
   * Good information on pricing
+#### 3.2 Expectations
+  * Proper information about location
+  * Relevant social medias
+  * Nice gallery to call customer attention
+  * Links that dont brake
+  * Quick return from seller
+  
