@@ -1,0 +1,35 @@
+.navbar {
+    background-color: #050505;
+    height: 80px;
+}
+
+.marketing {
+    background-color: #1b1b1b;
+}
+
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #1b1b1b;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.album {
+    background-color: #1b1b1b;
+}
+
+.price-table-text {
+    background-color: aquamarine;
+}
+
+
+.price-table-text span{
+    margin-left: 180px;
+    border: 1px solid #fff;
+}
+
