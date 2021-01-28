@@ -60,5 +60,7 @@ Thank you
 ### 4. Design Choices
 #### 4.1 Fonts
   * The fonts used one the website have been selected from [Google fonts](https://fonts.google.com/) which will proabably work on almost all web browsers
-
+#### 4.2 Icons
+  * All icons used on this website have been selected from [Font Awesome](https://fontawesome.com/)
+  
 
