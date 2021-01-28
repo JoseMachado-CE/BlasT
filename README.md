@@ -57,4 +57,8 @@ Thank you
   * Nice gallery to call customer attention
   * Links that dont brake
   * Quick return from seller
-  
+### 4. Design Choices
+#### 4.1 Fonts
+  * The fonts used one the website have been selected from [Google fonts](https://fonts.google.com/) which will proabably work on almost all web browsers
+
+
