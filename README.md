@@ -43,3 +43,10 @@ Thank you
   * A user wants to easily find the gym location
   * A user wants to navigate smooth on the webiste displayed on tablets and cellphones
   * A user wants to find different social medias associated to the website
+### 3. User Requirements and Expectations
+#### 3.1 Requirements
+  * Easy to navigate
+  * Appropriate Content about the service
+  * Good color contrast 
+  * Quick way to contact the seller
+  * Good information on pricing
