@@ -65,3 +65,8 @@ Thank you
 #### 4.3 Colors
   * I will add the photo of the color pallet I used on this website below. 
   ![Color Pallet](Wireframes/Color-pallet.png)
+
+  * #222831 - Color used for navbar
+  * #f05454 - Color used for buttons
+
+  
