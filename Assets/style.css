@@ -33,3 +33,54 @@ body {
     border: 1px solid #fff;
 }
 
+
+
+
+
+
+
+
+
+.container-about, .container-volunteers, .container-clarify {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 120px;
+}
+
+
+
+
+.about-img {
+    margin: 20px;
+    background-color: #ffa500;
+    background-size: cover;
+    box-shadow: 6px 6px 35px -8px rgba(0,0,0,0.75);
+    border-radius: 8px
+}
+
+.about-img img {
+    max-width: 400px;
+    height: auto;
+    opacity: 70%;
+    border-radius: 8px;
+}
+
+.about-intro {
+    width: 350px;
+    height: auto;
+    padding: 10px;
+    
+    border-radius: 8px;
+    box-shadow: 6px 6px 35px -8px rgba(0,0,0,0.55);
+}
