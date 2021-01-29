@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
 .navbar {
     background-color: #050505;
     height: 80px;
@@ -32,29 +34,53 @@ body {
     margin-left: 180px;
     border: 1px solid #fff;
 }
+/*------------*/
+.row {
+    position: relative;
+}
 
 
 
+.period {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    color: #050505;
+    
+}
 
+.span-time {
+    border-bottom: 2px solid #fff;
+    color: #050505;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
 
+      
+}
 
-
-
+.fa-stopwatch {
+    font-size: 120px;
+    margin-left: 40px;
+    
+}
+/*------------ Classes */
 
 .container-about {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     max-width: 100%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     margin-bottom: 120px;
 }
 
@@ -73,11 +99,15 @@ body {
     border-radius: 8px;
 }
 
+.middle {
+    margin-bottom: 20px;
+}
+
 .about-intro {
     width: 350px;
-    height: auto;
+    height: 250px;
     padding: 10px;
-    
-    border-radius: 8px;
+    margin-bottom: 20px;
+    border-radius: 0;
     box-shadow: 6px 6px 35px -8px rgba(0,0,0,0.55);
 }
