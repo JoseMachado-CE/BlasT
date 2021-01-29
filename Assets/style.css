@@ -41,7 +41,7 @@ body {
 
 
 
-.container-about, .container-volunteers, .container-clarify {
+.container-about {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -57,9 +57,6 @@ body {
             flex-direction: row;
     margin-bottom: 120px;
 }
-
-
-
 
 .about-img {
     margin: 20px;
