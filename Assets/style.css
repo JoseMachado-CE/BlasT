@@ -46,18 +46,18 @@ body {
     font-size: 40px;
     font-family: 'Roboto',sans-serif;
     font-weight: bold;
-    color: #050505;
-    
+    color: #050505;  
 }
 
 .span-time {
     border-bottom: 2px solid #fff;
     color: #050505;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    padding-top: 10px;
+    font-size: 20px; 
+}
 
-      
+.padding-span {
+    margin-bottom: 3px;
 }
 
 .fa-stopwatch {
