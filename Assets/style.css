@@ -20,6 +20,17 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
+.btn-danger {
+    background-color: #ffa500;
+    border: 1px solid #ffa500;
+}
+
+.btn-danger:hover {
+    background-color: #050505;
+    color:#ffa500;
+    border: 1px solid #ffa500;
+}
+
 .carousel {
     -webkit-background-size: cover;
     -moz-background-size: cover;
