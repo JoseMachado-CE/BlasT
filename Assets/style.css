@@ -300,6 +300,7 @@ body {
     text-transform: uppercase;
     font-size: 50px;
     text-align: center;
+    margin-top: 20%;
 
 }
 
@@ -325,4 +326,28 @@ body {
 
 .carousel-control-next, .carousel-control-prev {
     width: 140px;
+}
+
+.card-body {
+    color: #050505;
+    background-color: #ffa500;
+    border: 1px solid #ffa500;
+}
+
+.fw-normal {
+    background-color: #ffa500;
+    border: none;
+    outline: none;
+}
+
+.card-header {
+    background-color: #ffa500;
+}
+
+.card {
+    height: 500px;
+}
+
+.col {
+    margin-bottom: 0;
 }
