@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bungee+Shade&family=Denk+One&family=Lato:ital,wght@1,100&family=Limelight&family=Raleway:wght@100&family=Roboto:ital,wght@0,300;0,500;1,100&family=Timmana&family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bungee+Shade&family=Denk+One&family=Lato:ital,wght@1,100&family=Limelight&family=Montserrat:wght@700&family=Raleway:wght@100&family=Roboto:ital,wght@0,300;0,500;1,100&family=Timmana&family=Vast+Shadow&display=swap');
+
 .navbar {
     background-color: #050505;
     height: 80px;
@@ -290,4 +291,38 @@ body {
     text-transform: uppercase;
     margin-top: 80%;
     margin-left: 50%;
+}
+
+
+.location-text {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.location-marg {
+    margin-top: 20px;
+}
+
+.carousel2 {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.carousel-inner2 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-left: 12%;
+    
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 140px;
 }
