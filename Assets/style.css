@@ -188,8 +188,6 @@ body {
     
 }
 
-
-
 .about-img1:hover {
   border: 3px solid #fff;
 }
@@ -213,4 +211,72 @@ body {
     margin-bottom: 20px;
     border-radius: 0;
     box-shadow: 6px 6px 35px -8px rgba(0,0,0,0.55);
+}
+
+
+/**/
+.container-about2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    max-width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-bottom: 120px;
+}
+
+.about-img2 {
+    margin: 20px;
+    
+    background-size: cover;
+    box-shadow: 6px 6px 35px -8px rgba(0,0,0,0.75);
+    border-radius: 8px;
+    background-image: url("Images/image.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    text-decoration: none;
+    
+}
+
+.about-img2:hover {
+  border: 3px solid #fff;
+}
+
+.about-img2 img {
+    max-width: 400px;
+    height: auto;
+    opacity: 70%;
+    border-radius: 8px;
+    
+}
+
+.middle2 {
+    margin-bottom: 20px;
+}
+
+.about-intro2 {
+    width: 350px;
+    height: 600px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 0;
+    box-shadow: 6px 6px 35px -8px rgba(0,0,0,0.55);
+}
+
+.text-schedule2 {
+    font-family: 'Denk One', sans-serif;
+    font-size: 50px;
+    color: #ffa500;
+    text-transform: uppercase;
+    margin-top: 80%;
+    margin-left: 50%;
 }
