@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Raleway:wght@100&family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lato:ital,wght@1,100&family=Limelight&family=Raleway:wght@100&family=Roboto:ital,wght@0,300;0,500;1,100&family=Timmana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bungee+Shade&family=Denk+One&family=Lato:ital,wght@1,100&family=Limelight&family=Raleway:wght@100&family=Roboto:ital,wght@0,300;0,500;1,100&family=Timmana&family=Vast+Shadow&display=swap');
 .navbar {
     background-color: #050505;
     height: 80px;
@@ -53,17 +50,26 @@ body {
 }
 
 .text-schedule {
-    font-family: 'Timmana', sans-serif;
-    font-size: 50px;
+    font-family: 'Bungee Shade', sans-serif;
+    font-size: 45px;
     text-transform: uppercase;
     text-align: center;
     color: #050505;
-    margin-top: 50px;
-    margin-bottom: 0;
+    margin-top: 50%;
 }
 
 #can {
-    margin-top: 40px;
+    margin-top: -35px;
+    font-size: 60px;
+}
+
+#choose {
+   font-family: 'Denk One', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #050505;
+    margin-top: 100px;
 }
 
 .row {
@@ -178,6 +184,14 @@ body {
     background-repeat: no-repeat;
     background-color: #ffa500;
     background-blend-mode: soft-light;
+    text-decoration: none;
+    
+}
+
+
+
+.about-img1:hover {
+  border: 3px solid #fff;
 }
 
 .about-img1 img {
