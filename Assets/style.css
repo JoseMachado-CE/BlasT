@@ -328,41 +328,46 @@ body {
     width: 140px;
 }
 
-.card-body {
+.box-price {
+    background-color: #ffa500;
+    width:400px;
+    height: 400px;
+}
+
+#divider {
+    width: 70px;
+    font-weight: 300;
+}
+
+.wrapper-price {
+    background-color: #ffa500;
     color: #050505;
-    background-color: #ffa500;
-    border: 1px solid #ffa500;
+    width: 75%;
+    padding-top: 30px;
+    margin: auto;
 }
 
-.fw-normal {
-    background-color: #ffa500;
-    border: none;
-    outline: none;
+.wrapper-price2 {
+    background-color: yellow;
 }
 
-.card-header {
-    background-color: #ffa500;
+#button-price {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+    margin: auto;
+    background-color: #1b1b1b;
+    color: #fff;
+    
 }
 
-.card {
-    height: 300px;
+.border-price-button {
+    width: 280px;
+    height: 90px;
+    border: 3px solid #050505;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
 }
 
-.price-table-content {
-    background-color: #ffa500;
-}
-
-@media (min-width: 992px){
-    .col-md-12 {
-    width: 100%;
-    }
-
-}
-
-@media (min-width: 992px)
-{
-.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-
-}
-}
