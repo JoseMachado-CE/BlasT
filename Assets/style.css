@@ -359,15 +359,27 @@ body {
     margin: auto;
     background-color: #1b1b1b;
     color: #fff;
+
     
 }
 
 .border-price-button {
     width: 280px;
-    height: 90px;
+    height: 110px;
     border: 3px solid #050505;
     display: block;
     text-align: center;
     margin: 10px auto;
+    background-color: blueviolet;
 }
 
+.pricing-col {
+    padding-bottom: 0;
+    
+}
+
+.price-pricing {
+    font-size: 22px;
+    
+    
+}
