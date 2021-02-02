@@ -328,6 +328,7 @@ body {
     width: 140px;
 }
 
+
 .box-price {
     background-color: #ffa500;
     width:400px;
@@ -349,11 +350,11 @@ body {
 
 .wrapper-price2 {
     background-color: #393e46;
-    color: #fff;
+    color: #cdd0cb;
     font-size: 17px;
 }
 
-#button-price {
+.button-price {
     display: block;
     text-align: center;
     text-transform: uppercase;
@@ -403,7 +404,20 @@ body {
 .icon-pricing {
     text-align: center;
     margin-left: 50%;
-    margin-top: 40%;
+    margin-top: 30%;
     font-size: 25px;
 }
 
+.icon-pricing1 {
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 20%;
+    font-size: 25px;
+}
+
+
+@media (max-width: 550px) {
+    .box-price {
+        margin-bottom: 180px;
+    }
+}
