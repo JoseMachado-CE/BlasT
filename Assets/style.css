@@ -348,7 +348,9 @@ body {
 }
 
 .wrapper-price2 {
-    background-color: yellow;
+    background-color: #393e46;
+    color: #fff;
+    font-size: 17px;
 }
 
 #button-price {
@@ -370,7 +372,7 @@ body {
     display: block;
     text-align: center;
     margin: 10px auto;
-    background-color: blueviolet;
+    
 }
 
 .pricing-col {
@@ -383,3 +385,25 @@ body {
     
     
 }
+
+.border-col-price {
+    border-right: 1px solid #1b1b1b;
+    border-bottom-width: 70px;
+    border-bottom: 1px; 
+}
+
+.border-desc-price {
+    border-bottom: 1px solid #1b1b1b;
+    border-width: 80%;
+    line-height: 60px;
+    margin: 0;
+    text-align: start 
+}
+
+.icon-pricing {
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 40%;
+    font-size: 25px;
+}
+
