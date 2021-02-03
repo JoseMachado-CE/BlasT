@@ -32,11 +32,7 @@ body {
     border: 1px solid #ffa500;
 }
 
-.carousel {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}
+
 
 .album {
     background-color: #1b1b1b;
@@ -420,12 +416,51 @@ body {
 }
 
 .form input, #exampleFormControlTextarea1 {
-    width: 50%;
+    width: 100%;
 }
 
+.img-contact {
+  
+}
+
+.button-price-contact {
+    background-color: #ffa500;
+    color: #fff;
+    width: 100px;
+
+}
+.carousel-inner {
+    z-index: -1;
+}
+.navbar, .collapse{
+    z-index: 1000;
+}
 
 @media (max-width: 550px) {
     .box-price {
         margin-bottom: 180px;
+    }
+
+   .img-c{
+        width: 350px;
+        height: 300px;
+        display: block;
+        text-align: center;
+        position: relative;
+        right: 60px;
+        background-position-x: 90px;
+    }
+
+    .carousel-inner2 > .carousel-item {
+        background-position-x: center;
+    }
+
+    .box-price {
+        width: 350px;
+    }
+   
+    img, svg {
+        vertical-align: middle;
+        height: 250px;
     }
 }
