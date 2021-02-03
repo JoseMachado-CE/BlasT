@@ -369,7 +369,7 @@ body {
 .border-price-button {
     width: 280px;
     height: 110px;
-    border: 3px solid #050505;
+    border: 5px solid #050505;
     display: block;
     text-align: center;
     margin: 10px auto;
@@ -413,6 +413,14 @@ body {
     margin-left: 50%;
     margin-top: 20%;
     font-size: 25px;
+}
+
+.form {
+    margin-top: 250px;
+}
+
+.form input, #exampleFormControlTextarea1 {
+    width: 50%;
 }
 
 
