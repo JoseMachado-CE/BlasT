@@ -1,55 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bungee+Shade&family=Denk+One&family=Lato:ital,wght@1,100&family=Limelight&family=Montserrat:wght@700&family=Raleway:wght@100&family=Roboto:ital,wght@0,300;0,500;1,100&family=Timmana&family=Vast+Shadow&display=swap');
 
-.navbar {
-    background-color: #050505;
-    height: 80px;
-}
-
-.marketing {
-    background-color: #1b1b1b;
-}
-
 body {
-    margin: 0;
-    font-family: var(--bs-font-sans-serif);
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
+    background-color: #212121;
     color: #fff;
-    background-color: #1b1b1b;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
+    margin: 0;
+    padding: 0;
 }
 
-.btn-danger {
-    background-color: #ffa500;
-    border: 1px solid #ffa500;
-}
-
-.btn-danger:hover {
-    background-color: #050505;
-    color:#ffa500;
-    border: 1px solid #ffa500;
-}
-
-
-
-.album {
-    background-color: #1b1b1b;
-}
-
-.price-table-text {
-    background-color: aquamarine;
-}
-
-
-.price-table-text span{
-    margin-left: 180px;
-    border: 1px solid #fff;
-}
-/*------------*/
-
-.schedule {
+/*------------ Schedule -----*/
+.title-section {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
@@ -116,7 +75,6 @@ body {
     margin-left: 40px;
     
 }
-/*------------ Classes */
 
 .container-about {
     display: -webkit-box;
@@ -221,8 +179,6 @@ body {
     box-shadow: 6px 6px 35px -8px rgba(0,0,0,0.55);
 }
 
-
-/**/
 .container-about2 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -289,178 +245,4 @@ body {
     margin-left: 50%;
 }
 
-
-.location-text {
-    font-family: 'Montserrat',sans-serif;
-    font-weight: 900;
-    text-transform: uppercase;
-    font-size: 50px;
-    text-align: center;
-    margin-top: 20%;
-
-}
-
-.location-marg {
-    margin-top: 20px;
-}
-
-.carousel2 {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    width: 100%;
-    height: 600px;
-}
-
-.carousel-inner2 {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    margin-left: 12%;
-    
-}
-
-.carousel-control-next, .carousel-control-prev {
-    width: 140px;
-}
-
-
-.box-price {
-    background-color: #ffa500;
-    width:400px;
-    height: 400px;
-}
-
-#divider {
-    width: 70px;
-    font-weight: 300;
-}
-
-.wrapper-price {
-    background-color: #ffa500;
-    color: #050505;
-    width: 75%;
-    padding-top: 30px;
-    margin: auto;
-}
-
-.wrapper-price2 {
-    background-color: #393e46;
-    color: #cdd0cb;
-    font-size: 17px;
-}
-
-.button-price {
-    display: block;
-    text-align: center;
-    text-transform: uppercase;
-    width: 200px;
-    margin: auto;
-    background-color: #1b1b1b;
-    color: #fff;
-
-    
-}
-
-.border-price-button {
-    width: 280px;
-    height: 110px;
-    border: 5px solid #050505;
-    display: block;
-    text-align: center;
-    margin: 10px auto;
-    
-}
-
-.pricing-col {
-    padding-bottom: 0;
-    
-}
-
-.price-pricing {
-    font-size: 22px;
-    
-    
-}
-
-.border-col-price {
-    border-right: 1px solid #1b1b1b;
-    border-bottom-width: 70px;
-    border-bottom: 1px; 
-}
-
-.border-desc-price {
-    border-bottom: 1px solid #1b1b1b;
-    border-width: 80%;
-    line-height: 60px;
-    margin: 0;
-    text-align: start 
-}
-
-.icon-pricing {
-    text-align: center;
-    margin-left: 50%;
-    margin-top: 30%;
-    font-size: 25px;
-}
-
-.icon-pricing1 {
-    text-align: center;
-    margin-left: 50%;
-    margin-top: 20%;
-    font-size: 25px;
-}
-
-.form {
-    margin-top: 250px;
-}
-
-.form input, #exampleFormControlTextarea1 {
-    width: 100%;
-}
-
-.img-contact {
-  
-}
-
-.button-price-contact {
-    background-color: #ffa500;
-    color: #fff;
-    width: 100px;
-
-}
-.carousel-inner {
-    z-index: -1;
-}
-.navbar, .collapse{
-    z-index: 1000;
-}
-
-@media (max-width: 550px) {
-    .box-price {
-        margin-bottom: 180px;
-    }
-
-   .img-c{
-        width: 350px;
-        height: 300px;
-        display: block;
-        text-align: center;
-        position: relative;
-        right: 60px;
-        background-position-x: 90px;
-    }
-
-    .carousel-inner2 > .carousel-item {
-        background-position-x: center;
-    }
-
-    .box-price {
-        width: 350px;
-    }
-   
-    img, svg {
-        vertical-align: middle;
-        height: 250px;
-    }
-}
+/*------------ Schedule -----*/
