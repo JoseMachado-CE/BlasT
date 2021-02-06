@@ -246,12 +246,30 @@ body {
 }
 
 /*------------ Schedule end -----*/
-
+.bg-white {
+    background-color: #ffa500;
+}
 /*------------ Location -----*/
 
 .location-title {
     text-align: center;
+    font-family: 'Alfa Slab One', sans-serif;
+    text-transform: uppercase;
+    font-size: 55px;
+    letter-spacing: 2px;
 }
+
+.address-text {
+    margin-top: 5%;
+}
+
+/*------------ Pricing-----*/
+.card {
+    background-color: #ffa500;
+    color: #fff;
+}
+/*------------ Pricing end-----*/
+
 
 /*------------ Location end-----*/
 @media screen and (max-width: 1200px) {
