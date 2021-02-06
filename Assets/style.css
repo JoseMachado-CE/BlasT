@@ -317,6 +317,13 @@ body {
 }
 /*------------ Pricing end-----*/
 
+.footer {
+    margin-top: 40px;
+}
+
+.float-end a {
+    letter-spacing: 20px;
+}
 
 /*------------ Location end-----*/
 @media screen and (max-width: 1200px) {
