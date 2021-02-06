@@ -266,7 +266,29 @@ body {
 /*------------ Pricing-----*/
 .card {
     background-color: #ffa500;
+    color: #050505;
+}
+
+.card-header {
+    border-bottom: 1px solid #fff;
+}
+
+.btn-outline-primary {
+    background-color: #212121;
     color: #fff;
+    border: none;
+    outline: none;
+}
+
+.btn-outline-primary:hover {
+    background-color: #212121;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn-primary {
+   background-color: #212121;
+    color: #fff; 
 }
 /*------------ Pricing end-----*/
 
