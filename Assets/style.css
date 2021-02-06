@@ -7,6 +7,23 @@ body {
     padding: 0;
 }
 
+.navbar1 {
+    background-color: #ffa500;
+    
+    text-align: center;
+    
+}
+
+.sticky-top a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    vertical-align: middle;
+  
+}
 /*------------ Schedule -----*/
 .title-section {
     text-align: center;
@@ -289,6 +306,14 @@ body {
 .btn-primary {
    background-color: #212121;
     color: #fff; 
+    outline: none;
+    border: none;
+}
+
+.btn-primary:hover {
+   background-color: #212121;
+    color: #fff; 
+    border: 1px solid #fff;
 }
 /*------------ Pricing end-----*/
 
