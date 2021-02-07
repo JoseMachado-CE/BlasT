@@ -336,3 +336,18 @@ body {
         margin-right: 40px;
     }
 }
+
+@media screen and (max-width: 420px) {
+    iframe {
+        width: 360px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .testemonial img {
+        width: 360px;
+        height: 360px;
+        margin-left: 5px;
+    }
+}
