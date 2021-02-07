@@ -350,4 +350,12 @@ body {
         height: 360px;
         margin-left: 5px;
     }
+
+    .navbar1 .top-alert {
+        font-size: 15px;
+    }
+
+    .carousel-item img{
+        height: 230px;
+    }
 }
