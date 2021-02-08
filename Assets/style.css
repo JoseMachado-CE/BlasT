@@ -343,8 +343,52 @@ body {
     }
 }
 
-@media screen and (max-width: 420px) {
-    
+@media screen and (min-width: 420px) and (max-width: 1024px) {
+
+    * {
+        width: 100%;
+
+    }
+
+    .wrapper-content{
+        width: 90%;
+    }
+
+    .navbar-nav {
+        margin-right: 200px;
+    }
+
+    .carousel-caption{
+        padding-right: 450px;
+    }
+
+    .carousel-indicators{
+        padding-right: 450px;
+    }
+
+    .btn1{
+        padding: .5rem 1rem;
+        font-size: 1.25rem;
+        border-radius: .3rem;
+        background-color: #ffa500;
+        border: 0;
+        outline: 0;
+    }
+
+    .testemonial img {
+        width: 300px;
+        height: 360px;
+        margin-left: 5px;
+    }
+
+    iframe {
+        width: 300px;
+        height: 360px;
+    }
+
+    .gizas .blockquote{
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 420px) {
