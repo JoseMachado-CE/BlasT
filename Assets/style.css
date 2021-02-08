@@ -343,7 +343,7 @@ body {
     }
 }
 
-@media screen and (min-width: 420px) and (max-width: 1024px) {
+@media screen and (min-width: 420px) and (max-width: 768px) {
 
     * {
         width: 100%;
@@ -351,19 +351,15 @@ body {
     }
 
     .wrapper-content{
-        width: 90%;
-    }
-
-    .navbar-nav {
-        margin-right: 200px;
+        width: 100%;
     }
 
     .carousel-caption{
-        padding-right: 450px;
+        padding-right: 200px;
     }
 
     .carousel-indicators{
-        padding-right: 450px;
+        padding-right: 200px;
     }
 
     .btn1{
@@ -376,19 +372,33 @@ body {
     }
 
     .testemonial img {
-        width: 300px;
-        height: 360px;
-        margin-left: 5px;
+        width: 280px;
+        height: 300px;
+    }
+
+    .col-md-6 {
+        margin-left: 20px;
+    }
+
+    #giza {
+        margin-top: 60px;
+    }
+
+    .featurette {
+        margin-bottom: 20px;
     }
 
     iframe {
-        width: 300px;
-        height: 360px;
+        width: 280px;
+        height: 300px;
     }
 
-    .gizas .blockquote{
-        font-size: 18px;
+    .col-6 iframe {
+        width: 700px;
     }
+
+    
+    
 }
 
 @media screen and (max-width: 420px) {
