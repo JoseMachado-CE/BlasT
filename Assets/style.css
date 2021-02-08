@@ -378,4 +378,13 @@ body {
         width: 90%;
         margin-left: 5%;
     }
+
+    .btn-group-lg> .btn, .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: .3rem;
+    background-color: #ffa500;
+}
+
+
 }
