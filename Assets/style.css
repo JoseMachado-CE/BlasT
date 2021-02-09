@@ -349,6 +349,11 @@ body {
         width: 350px;
         height: 350px;
     }
+
+    iframe {
+        width: 350px;
+        height: 370px;
+    }
 }
 
 @media screen and (min-width: 420px) and (max-width: 768px) {
