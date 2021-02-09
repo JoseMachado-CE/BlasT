@@ -246,7 +246,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="#" class="d-none d-sm-block about-img1 about-intro1">
+                <a href="#" class="d-none d-lg-block d-xl-block about-img1 about-intro1">
                     <p class="text-schedule">Everybody</p>
                     <p id="can" class="text-schedule">can</p>
                     <p id="choose">Choose healthy Always</p>
@@ -275,7 +275,8 @@
                     </div>
                 </div>
 
-                <a href="#" class="about-img2 visible-sm-block hidden-sm about-intro2">
+                <a href="#" class="about-img2 d-none d-lg-block d-xl-block about-intro2">
+                    <!---Will hide all elements on all screen except on medium and large-->
                     <p class="text-schedule2">Join our Family</p>
                 </a>
             </div>
@@ -409,7 +410,7 @@
         <h1 class="title-section">Contact us</h1>
         <section class="container contact">
             <div class="row">
-                <div class="col-sm-12 col-md-4 col-ls-4">
+                <div class="col-sm-12 col-md-12 col-ls-4">
                     <div class="col-12">
                         <label for="exampleFormControlInput1" class="form-label">First Name</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1"
@@ -430,7 +431,7 @@
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
                 </div>
-                <div class="col-8 d-none d-sm-block d-sm-none d-md-block">
+                <div id="contact-img" class="col-8 d-none d-lg-block">
                     <img src="Assets/Images/contact2img.png">
                 </div>
                 <button type="button" class="btn btn-lg btn-primary1">Send</button>
@@ -440,7 +441,7 @@
         <footer class="footer container-fluid">
             <div class="container">
                 <p class="float-end"><a href="#"><i class="fab fa-facebook-f"></i><i class="fab fa-instagram"></i><i
-                            class="fab fa-twitter"></i></a></p>
+                    class="fab fa-twitter"></i></a></p>
                 <p>&copy; 2017-2021 BlasT, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
             </div>
         </footer>
