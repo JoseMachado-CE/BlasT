@@ -370,6 +370,26 @@ body {
     #contact-img img {
         width: 800px;
     }
+
+    .map-location iframe {
+        width: 200%;
+        margin-left: 2.5%;
+        
+    }
+
+    .btn-primary1 {
+        background-color: #ffa500;
+        width: 90%;
+        
+    }
+
+    .btn1{
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: .3rem;
+    background-color: #ffa500;
+    border: 0;
+    outline: 0;
 }
 
 @media screen and (min-width: 420px) and (max-width: 768px) {
