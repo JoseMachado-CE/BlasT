@@ -331,7 +331,22 @@ body {
     letter-spacing: 20px;
 }
 
-/*------------ Location end-----*/
+/*------------ Testemonial end-----*/
+.testemonial img {
+    width: 350px;
+    height: 350px;
+}
+/*------------ Testemonial end-----*/
+
+#contact-img {
+    width: 400px;
+}
+
+.map-location iframe {
+    width: 200%;
+    margin-left: 2.5%;
+        
+}
 @media screen and (max-width: 1200px) {
     
 }
@@ -466,9 +481,9 @@ body {
     
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
     .testemonial img {
-        width: 340px;
+        width: 250px;
         height: 360px;
         margin-left: 5px;
     }
@@ -499,13 +514,14 @@ body {
     }
 
     .btn1{
-    padding: .5rem 1rem;
-    font-size: 1.25rem;
-    border-radius: .3rem;
-    background-color: #ffa500;
-    border: 0;
-    outline: 0;
+        padding: .5rem 1rem;
+        font-size: 1.25rem;
+        border-radius: .3rem;
+        background-color: #ffa500;
+        border: 0;
+        outline: 0;
+    }
+}
 }
 
 
-}
