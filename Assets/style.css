@@ -323,8 +323,12 @@ body {
 }
 /*------------ Pricing end-----*/
 
-.footer {
+footer {
     margin-top: 40px;
+    background-color: black;
+    margin-bottom: 0;
+    
+    margin-top: 10px;
 }
 
 .float-end a {
@@ -335,7 +339,16 @@ body {
 .testemonial img {
     width: 350px;
     height: 350px;
+    margin-left: 60px;
 }
+
+iframe {
+    width: 450px;
+    height: 450px;
+
+}
+
+
 /*------------ Testemonial end-----*/
 
 #contact-img {
@@ -346,6 +359,30 @@ body {
     width: 200%;
     margin-left: 2.5%;
         
+}
+
+.btn-primary1 {
+    background-color: #ffa500;
+    width: 100%;   
+}
+
+.btn1{
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: .3rem;
+    background-color: #ffa500;
+    border: 0;
+    outline: 0;
+}
+
+.carousel-caption{
+    padding-right: 20px;
+    padding-bottom:60px;
+}
+
+.carousel-indicators{
+    padding-right: 20px;
+    padding-bottom:10px;
 }
 @media screen and (max-width: 1200px) {
     
@@ -394,8 +431,7 @@ body {
 
     .btn-primary1 {
         background-color: #ffa500;
-        width: 90%;
-        
+        width: 90%;   
     }
 
     .btn1{
@@ -405,6 +441,7 @@ body {
     background-color: #ffa500;
     border: 0;
     outline: 0;
+    }
 }
 
 @media screen and (min-width: 420px) and (max-width: 768px) {
@@ -522,6 +559,6 @@ body {
         outline: 0;
     }
 }
-}
+
 
 
