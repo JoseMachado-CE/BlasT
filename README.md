@@ -63,11 +63,12 @@ Thank you
 #### 4.2 Icons
   * All icons used on this website have been selected from [Font Awesome](https://fontawesome.com/)
 #### 4.3 Colors
-  * I will add the photo of the color pallet I used on this website below. 
-  ![Color Pallet](Wireframes/Color-pallet.png)
+  * I had the help of a few websites for giving the colors such as [Color Hunt](https://https://colorhunt.co/)
+  * #212121 - Color used for background color 
+  * #fff - Color used for majority of content
+  * #ffa500 - Ton of orange used on different parts of the website
+  * #050505 - Color used for content of schedule banner
 
-  * #222831 - Color used for navbar
-  * #f05454 - Color used for buttons
 #### 4.4 Structure
   * I have used the [Bootstrap](https://getbootstrap.com/) structure to give form to this website.
   
