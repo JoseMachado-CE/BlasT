@@ -102,6 +102,13 @@ Chatbot to make user experience smoothier
 [HTML5](https://en.wikipedia.org/wiki/HTML5) - used to create the HTML base.
 [CSS](https://en.wikipedia.org/wiki/CSS) - used to give style to the HTML5 elements.
 ### Tools and libraries
+[Bootstrap](https://getbootstrap.com) - I used bootstrap for the navigation bar, carousel, pricing and footer
+[Google Fonts](https://fonts.google.com/) -  I used google fonts for typography.
+[Font Awesome](https://fontawesome.com/) - I used font Awesome for Icons.
+[Gitpod](https://www.gitpod.io/) - I used gitpod for better tracebility.
+[Github](https://github.com/) - I used github for creating my repository
+[Git](https://git-scm.com/) - I used git as version control for better record of my coding.
+
 
 
 
