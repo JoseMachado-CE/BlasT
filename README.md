@@ -108,6 +108,27 @@ Chatbot to make user experience smoothier
 [Gitpod](https://www.gitpod.io/) - I used gitpod for better tracebility.
 [Github](https://github.com/) - I used github for creating my repository
 [Git](https://git-scm.com/) - I used git as version control for better record of my coding.
+## Testing
+[W3C Markup Validation](https://validator.w3.org/) - I used this website to validate the HTML
+[W3 CSS Validation Service](https://jigsaw.w3.org/css-validator/) - I used this website to validate CSS
+Website Tested on iphone, Tablet and Desktop.
+Tested carousel to be displayed on iphone, tablet and Desktop.
+Tested navbar on different screens to see if wont break.
+Tested collapse toogle navigation button to see whether it will work when navbar collapse.
+All code for this website has been written on gitpod.
+After saving and commiting code I pushed the code to github so it could get stored in my repository.
+
+## Credits
+
+I used the [Flyefit](https://www.flyefit.ie/) website for inspirational ideas.
+Some of the images of the website have been taken from [google images](https://google.com) and a few other images have been given to me through my girlfriend who does Crossfit.
+One of the 2 iframe has been take from [google maps](https://www.google.com/maps/) and the other iframe was taken from [youtube](https://youtube.com).
+
+I wanted to thank my mentor Simen, for giving me all the support needed to finish the website.
+I wanted to thank my girlfriend for letting me use my free time after work to get really involved in my project.
+I wanted to thank also Code Institute and Slack for all support.
+And God for make this all achieveable.
+
 
 
 
