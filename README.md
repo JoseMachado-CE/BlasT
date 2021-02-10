@@ -81,6 +81,35 @@ I have decided to use [Balsamiq Wireframes](https://balsamig.com) to create 3 di
 ### [Tablet Wireframe](Wireframes/Tablet_WF1.pdf)
 
 
+## Features
+### 1. Existing Features
+Designed with HTML5, CSS3 and Bootstrap.
+I decided to go with a carousel slide on the top of the page to make it more attractive.
+Then I put up 2 customers testemonials just to make it more trustworthy.
+After the customers testemonials I have put up the schedule for the classes.
+I threw more images below the schedule for make user still scroll down the page.
+After the gallery I have the location of the gym displayed there on the website.
+And then I have decided to break down the price in 3 plans with contact form coming after the pricing.
+
+### 2. Features Left to be implemented
+Join in page after clicking the join button
+Links to external partners
+Database to store all customers data
+Chatbot to make user experience smoothier 
+
+## Technologies to use
+### Languages
+[HTML5](https://en.wikipedia.org/wiki/HTML5) - used to create the HTML base.
+[CSS](https://en.wikipedia.org/wiki/CSS) - used to give style to the HTML5 elements.
+### Tools and libraries
+
+
+
+
+
+
+
+
 
 
 
