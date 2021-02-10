@@ -67,9 +67,24 @@ Thank you
   * #212121 - Color used for background color 
   * #fff - Color used for majority of content
   * #ffa500 - Ton of orange used on different parts of the website
-  * #050505 - Color used for content of schedule banner
+  * #050505 - Ton of dark for a few parts of the website
 
 #### 4.4 Structure
   * I have used the [Bootstrap](https://getbootstrap.com/) structure to give form to this website.
+
+## Wireframes
+
+I have decided to use [Balsamiq Wireframes](https://balsamig.com) to create 3 different wireframes for my website.
+
+### [Desktop Wireframe](Wireframes/Desktop_WF1.pdf)
+### [Iphone Wireframe](Wireframes/Iphone_WF1.pdf)
+### [Tablet Wireframe](Wireframes/Tablet_WF1.pdf)
+
+
+
+
+
+
+
   
 
