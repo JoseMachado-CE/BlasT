@@ -474,18 +474,11 @@ iframe {
     .testemonial img {
         width: 280px;
         height: 300px;
+        margin: 0;
     }
 
     .col-md-6 {
         margin-left: 20px;
-    }
-
-    #giza {
-        margin-top: 60px;
-    }
-
-    #tha {
-        margin-top: 60px;
     }
 
     .featurette {
@@ -530,7 +523,11 @@ iframe {
     }
 
     .carousel-item img{
-        height: 230px;
+        height: 250px;
+    }
+
+    .carousel-item1 img {
+        height: 240px;
     }
 
     iframe {
