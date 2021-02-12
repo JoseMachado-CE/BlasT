@@ -337,9 +337,8 @@ footer {
 
 /*------------ Testemonial end-----*/
 .testemonial img {
-    width: 350px;
-    height: 350px;
-    margin-left: 60px;
+    width: 500px;
+    height: 500px;
 }
 
 iframe {
@@ -405,6 +404,14 @@ iframe {
     iframe {
         width: 350px;
         height: 370px;
+    }
+
+    #giza {
+        margin-top: 90px;
+    }
+
+    #tha {
+        margin-top: 40px;
     }
 
     .contact {
