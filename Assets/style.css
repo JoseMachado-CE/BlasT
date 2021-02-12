@@ -520,7 +520,7 @@ iframe {
 
 @media screen and (min-width: 320px) and (max-width: 375px) {
     .testemonial img {
-        width: 250px;
+        width: 340px;
         height: 360px;
         margin-left: 5px;
     }
