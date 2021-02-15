@@ -7,11 +7,20 @@ body {
     padding: 0;
 }
 
+.navbar {
+    height: 80px;
+}
+
+.navbar a {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
 .navbar1 {
     background-color: #ffa500;
-    
     text-align: center;
-    
 }
 
 .sticky-top a{
@@ -21,8 +30,19 @@ body {
     font-size: 20px;
     margin-bottom: 10px;
     text-align: center;
-    vertical-align: middle;
-  
+    vertical-align: middle; 
+}
+
+.tilte-slide {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.p-slide {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif; 
 }
 
 .featurette-heading {
