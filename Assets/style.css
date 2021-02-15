@@ -23,14 +23,30 @@ body {
     text-align: center;
 }
 
-.sticky-top a{
+.navbar-dark .navbar-brand {
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-family: 'Lime Light', sans-serif;
+}
+
+.orange-t {
+    color: #ffa500;
+}
+
+.sticky-top {
+    background-color: #ffa500;
+    text-align: center;
+    color: #fff;
+}
+
+.sticky-top a {
     text-decoration: none;
-    text-transform: uppercase;
     color: #fff;
     font-size: 20px;
-    margin-bottom: 10px;
-    text-align: center;
-    vertical-align: middle; 
+}
+
+.sticky-top a:hover {
+    color: #212121;
 }
 
 .tilte-slide {
