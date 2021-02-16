@@ -18,12 +18,14 @@
 
 <body>
     <!-- Navbar -->
-    <div class="sticky-top">
-        <a class="navbar-brand1 top-alert" href="#">50% OFF. GET INVOLVED NOW !</a>
-    </div>
+    <nav class="navbar1 sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand top-alert" href="#">50% OFF. GET INVOLVED NOW !</a>
+        </div>
+    </nav>
     <nav class="navbar container-fluid navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">Blas<span class="orange-t">T</span></a>
+            <a class="navbar-brand" href="#">BlasT</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -55,8 +57,7 @@
     </nav>
     <!-- NAVBAR END -->
 
-    <!-- MAIN CAROUSEL -->
-
+    <!-- Carousel section-->
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <ol class="carousel-indicators">
             <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
@@ -64,31 +65,39 @@
             <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item1 active">
                 <img src="Assets/Images/carousel3.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption">
-                    <h5 class="tilte-slide">Number one in Town</h5>
-                    <p class="d-none d-md-block p-slide">CrossFit is not only for athletes</p>
+                    <h5>Number one in Town</h5>
+                    <p class="d-none d-md-block">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     <button type="button" class="w-50 btn1 btn-lg1 btn-outline-primary1">Join in</button>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="Assets/Images/carousel3.jpg" class="d-block w-100" alt="...">
+                <img src="Assets/Images/carousel2.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5 class="tilte-slide">Second slide label</h5>
-                    <p class="p-slide">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h5>Second slide label</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="Assets/Images/carousel3.jpg" class="d-block w-100" alt="...">
+                <img src="Assets/Images/imag4.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5 class="tilte-slide">Third slide label</h5>
-                    <p class="tilte-slide">Some representative placeholder content for the third slide.</p>
+                    <h5>Third slide label</h5>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                 </div>
             </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
     </div>
-    <!-- MAIN CAROUSEL END -->
+    <!-- Carousel section end-->
 
     <!-- Testemonial section-->
     <div class="wrapper-content">
@@ -237,7 +246,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="#" class="d-none d-xl-block about-img1 about-intro1">
+                <a href="#" class="d-none d-lg-block d-xl-block about-img1 about-intro1">
                     <p class="text-schedule">Everybody</p>
                     <p id="can" class="text-schedule">can</p>
                     <p id="choose">Choose healthy Always</p>
@@ -266,7 +275,7 @@
                     </div>
                 </div>
 
-                <a href="#" class="about-img2 d-none d-xl-block about-intro2">
+                <a href="#" class="about-img2 d-none d-lg-block d-xl-block about-intro2">
                     <!---Will hide all elements on all screen except on medium and large-->
                     <p class="text-schedule2">Join our Family</p>
                 </a>
@@ -278,7 +287,7 @@
         <!-- Gallery-->
         <section class="container">
             <h1 class="title-section">Gallery</h1>
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel shadow p-3 bg-white slide" data-bs-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
                     <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
@@ -309,28 +318,30 @@
 
         <!-- Location -->
         <h1 class="title-section">Location</h1>
-        <section class="container location">
+        <section class=" container location">
             <div class="row">
                 <div class="col-sm-12 col-xs-12 col-ls-6 address-text">
                     <div class="row">
                         <h1 class="location-title">City Centre</h1>
                     </div>
                     <div class="row">
-                        <div class="col text-nowrap">
+                        <div class="col">
                             <p>BlasT Gym is located in the City Centre. BlasT is situated a few
-                                minutes walk from buses stations and Parnell Luas Station.
+                                minutes walk from buses stations and Parnell Luas Station. The area is serviced by
+                                numerous bus routes and other various
+                                transport links.
                             </p>
-                            <p>43, Gardiner Lane, Mountjoy</p>
-                            <p>Dublin, D01 HE26</p>
-                            <p>Ireland</p>
+                            <p>43, Gardiner Lane</p>
+                            <p>Mountjoy</p>
+                            <p>Dublin</p>
+                            <p>D01 HE26</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 map-location">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.31501597598!2d-6.258736684526626!3d53.35551698172581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e8809fed5d5%3A0x7cec46a6f11a12c0!2s43%20Gardiner%20Ln%2C%20Mountjoy%2C%20Dublin%2C%20D01%20HE26!5e0!3m2!1sen!2sie!4v1612614079103!5m2!1sen!2sie"
-                        width="600" height="450" frameborder="0">
-                    </iframe>
+                        width="600" height="450" frameborder="0"></iframe>
                 </div>
             </div>
         </section>
@@ -366,9 +377,9 @@
                             <h1 class="card-title pricing-card-title">€250</h1>
                             <ul class="list-unstyled mt-3 mb-4">
                                 <li>Pay Monthly</li>
-                                <li>Monthly Bonus</li>
+                                <li>Call 1 friend and get one free month</li>
                                 <li>Priority team support</li>
-                                <li>Get a discount with</li>
+                                <li>Get a discount with this plan</li>
                             </ul>
                             <button type="button" class="w-100 btn btn-lg btn-primary">I want this plan</button>
                         </div>
@@ -399,7 +410,7 @@
         <h1 class="title-section">Contact us</h1>
         <section class="container contact">
             <div class="row">
-                <div class="col-sm-12 col-md-12 col-xl-5">
+                <div class="col-sm-12 col-md-12 col-ls-4">
                     <div class="col-12">
                         <label for="exampleFormControlInput1" class="form-label">First Name</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1"
@@ -419,20 +430,18 @@
                         <label for="exampleFormControlTextarea1" class="form-label">Message / Opnion</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
-                    <button type="button" id="contact-button" class="btn btn-lg btn-primary1">Send</button>
                 </div>
-                <div id="contact-img" class="col-8 d-xl-7 d-none d-lg-block">
+                <div id="contact-img" class="col-8 d-none d-lg-block">
                     <img src="Assets/Images/contact2img.png">
                 </div>
+                <button type="button" class="btn btn-lg btn-primary1">Send</button>
             </div>
         </section>
         <!-- Contact us end -->
-
-        <!--Footer-->
         <footer class="footer container-fluid">
             <div class="container">
                 <p class="float-end"><a href="#"><i class="fab fa-facebook-f"></i><i class="fab fa-instagram"></i><i
-                            class="fab fa-twitter"></i></a></p>
+                    class="fab fa-twitter"></i></a></p>
                 <p>&copy; 2017-2021 BlasT, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
             </div>
         </footer>

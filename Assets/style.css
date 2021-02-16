@@ -7,9 +7,6 @@ body {
     padding: 0;
 }
 
-.navbar {
-    height: 80px;
-}
 
 .navbar a {
     font-size: 18px;
@@ -17,6 +14,10 @@ body {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
 }
+
+
+
+
 
 .navbar1 {
     background-color: #ffa500;
