@@ -16,9 +16,6 @@ body {
 }
 
 
-
-
-
 .navbar1 {
     background-color: #ffa500;
     text-align: center;
@@ -466,6 +463,7 @@ iframe {
         margin-top: 30px;
         margin-bottom: 30px;
         text-align: center;
+        margin-left: 20%;
     }
 
     #contact-img img {
@@ -480,7 +478,8 @@ iframe {
 
     .btn-primary1 {
         background-color: #ffa500;
-        width: 90%;   
+        width: 90%; 
+        margin-left: 5%;  
     }
 
     .btn1{
