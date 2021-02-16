@@ -482,6 +482,10 @@ iframe {
         margin-left: 5%;  
     }
 
+    .location-text {
+        text-align: center;
+    }
+
     .btn1{
     padding: .5rem 1rem;
     font-size: 1.25rem;
