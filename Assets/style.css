@@ -15,14 +15,29 @@ body {
     text-transform: uppercase;
 }
 
-.location-text {
-        text-align: center;
-    }
+.T-brand {
+    color: #ffa500;
+}
 
+.location-text {
+    text-align: center;
+}
 
 .navbar1 {
     background-color: #ffa500;
     text-align: center;
+}
+
+.title-carousel {
+    font-size: 55px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.p-carousel {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar-dark .navbar-brand {
@@ -217,7 +232,6 @@ body {
     background-color: #ffa500;
     background-blend-mode: soft-light;
     text-decoration: none;
-    
 }
 
 .about-img1:hover {
@@ -403,18 +417,24 @@ iframe {
         
 }
 
-.btn-primary1 {
+.btn-primary2 {
     background-color: #ffa500;
-    width: 100%;   
+      
 }
 
-.btn1{
-    padding: .5rem 1rem;
-    font-size: 1.25rem;
-    border-radius: .3rem;
+.carousel-caption .btn2{
+    width: 300px;
     background-color: #ffa500;
-    border: 0;
-    outline: 0;
+    padding: 10px 100px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.carousel-caption .btn2 a {
+    text-decoration: none;
 }
 
 .carousel-caption{
