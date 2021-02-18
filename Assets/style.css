@@ -452,6 +452,16 @@ iframe {
         margin-left: 12.5%;
     }
 
+    .carousel1 .carousel-caption {
+        margin-bottom: 150px
+    }
+
+    .carousel1 .p-lead {
+        margin-top: 30px;
+    }
+
+    
+
     .testemonial img {
         width: 450px;
         height: 500px;
@@ -472,7 +482,10 @@ iframe {
         margin-left: 20px;
     }
 
-    
+    #schedule {
+        width:90%;
+        margin-left: 5%;
+    }
 }
 
 @media screen and (max-width: 1024px) {
