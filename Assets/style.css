@@ -13,6 +13,18 @@ body {
 }
 /* ------------ body end ---------- */
 
+
+
+/*------------ General-------*/
+
+.row {
+    position: relative;
+}
+
+/*------------ General end -------*/
+
+
+
 /* ------------ Sticky top ---------- */
 
 .sticky-top {
@@ -89,6 +101,36 @@ body {
     font-family: 'Roboto', sans-serif; 
 }
 
+.btn-primary2 {
+    background-color: #ffa500;
+      
+}
+
+.carousel-caption .btn2{
+    width: 300px;
+    background-color: #ffa500;
+    padding: 10px 100px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.carousel-caption .btn2 a {
+    text-decoration: none;
+}
+
+.carousel-caption{
+    padding-right: 20px;
+    padding-bottom:60px;
+}
+
+.carousel-indicators{
+    padding-right: 20px;
+    padding-bottom:10px;
+}
+
 /* ------------ Main Carousel end ---------- */
 
 
@@ -100,6 +142,17 @@ body {
     font-family: 'Monteserrat', sans-serif;
     color: #ffa500;
 }
+
+.testemonial img {
+    width: 500px;
+    height: 500px;
+}
+
+iframe {
+    width: 450px;
+    height: 450px;
+}
+
 
 /* ------------ Testemonial end ---------- */
 
@@ -126,12 +179,6 @@ body {
     margin-top: 50%;
 }
 
-/* ------------ Schedule end ---------- */
-
-
-
-
-/*------------ Gallery -------*/
 .title-section {
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -152,10 +199,6 @@ body {
     text-align: center;
     color: #050505;
     margin-top: 100px;
-}
-/*------------ Gallery  end -------*/
-.row {
-    position: relative;
 }
 
 .period {
@@ -183,51 +226,6 @@ body {
 
 .padding-span {
     margin-bottom: 5px;
-}
-
-.fa-stopwatch {
-    font-size: 120px;
-    margin-left: 40px;
-}
-
-.container-about {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    max-width: 100%;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    margin-bottom: 120px;
-}
-
-.about-img {
-    margin: 20px;
-    background-color: #ffa500;
-    background-size: cover;
-    box-shadow: 6px 6px 35px -8px rgba(0,0,0,0.75);
-    border-radius: 8px
-}
-
-.about-img img {
-    max-width: 400px;
-    height: auto;
-    opacity: 70%;
-    border-radius: 8px;
-}
-
-#contact{
-    margin-bottom: 80px;
-}
-
-.middle {
-    margin-bottom: 20px;
 }
 
 .about-intro {
@@ -362,10 +360,76 @@ body {
     margin-left: 50%;
 }
 
-/*------------ Schedule end -----*/
-.bg-white {
-    background-color: #ffa500;
+.container-about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    max-width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-bottom: 120px;
 }
+
+.about-img {
+    margin: 20px;
+    background-color: #ffa500;
+    background-size: cover;
+    box-shadow: 6px 6px 35px -8px rgba(0,0,0,0.75);
+    border-radius: 8px
+}
+
+.about-img img {
+    max-width: 400px;
+    height: auto;
+    opacity: 70%;
+    border-radius: 8px;
+}
+
+.middle {
+    margin-bottom: 20px;
+}
+
+.fa-stopwatch {
+    font-size: 120px;
+    margin-left: 40px;
+}
+
+/* ------------ Schedule end ---------- */
+
+
+
+/*------------ Contact  -------*/
+
+#contact{
+    margin-bottom: 80px;
+}
+
+#contact-img {
+    width: 400px;
+}
+
+#btn-contact {
+    background-color: #ffa500;
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+
+/*------------ Contact end -------*/
+
+
+
+
 /*------------ Location -----*/
 
 .location-title {
@@ -379,6 +443,18 @@ body {
 .address-text {
     margin-top: 5%;
 }
+
+.map-location iframe {
+    width: 200%;
+    margin-left: 2.5%;
+        
+}
+
+
+/*------------ Location end -----*/
+
+
+
 
 /*------------ Pricing-----*/
 .card {
@@ -417,6 +493,11 @@ body {
 }
 /*------------ Pricing end-----*/
 
+
+
+
+/*------------ Footer --------*/
+
 footer {
     margin-top: 40px;
     background-color: black;
@@ -429,60 +510,10 @@ footer {
     letter-spacing: 20px;
 }
 
-/*------------ Testemonial end-----*/
-.testemonial img {
-    width: 500px;
-    height: 500px;
-}
-
-iframe {
-    width: 450px;
-    height: 450px;
-
-}
+/*------------ Footer end --------*/
 
 
-/*------------ Testemonial end-----*/
 
-#contact-img {
-    width: 400px;
-}
-
-.map-location iframe {
-    width: 200%;
-    margin-left: 2.5%;
-        
-}
-
-.btn-primary2 {
-    background-color: #ffa500;
-      
-}
-
-.carousel-caption .btn2{
-    width: 300px;
-    background-color: #ffa500;
-    padding: 10px 100px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: #212121;
-}
-
-.carousel-caption .btn2 a {
-    text-decoration: none;
-}
-
-.carousel-caption{
-    padding-right: 20px;
-    padding-bottom:60px;
-}
-
-.carousel-indicators{
-    padding-right: 20px;
-    padding-bottom:10px;
-}
 
 /* ------------ Media Query ---------- */
 
@@ -534,14 +565,6 @@ iframe {
     }
 }
 
-@media screen and (min-width: 1025) and (max-width: 1500px) {
-    #btn-contact {
-        background-color: #ffa500;
-        width: 100%;
-        margin-top: 5px;
-        text-align: center;
-    }
-} 
 
 @media screen and (max-width: 1024px) {
     .testemonial img {
@@ -857,6 +880,12 @@ iframe {
         background-color: #ffa500;
         border: 0;
         outline: 0;
+    }
+
+    #btn-contact {
+        background-color: #ffa500;
+        width: 100%;
+        margin-left: 0;
     }
 }
 
