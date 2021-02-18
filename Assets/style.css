@@ -445,7 +445,13 @@ iframe {
     padding-right: 20px;
     padding-bottom:10px;
 }
-@media screen and (max-width: 1675px) {
+@media screen and (min-width: 1675px) {
+
+    .wrapper-content{
+        width: 75%;
+        margin-left: 12.5%;
+    }
+
     .testemonial img {
         width: 450px;
         height: 500px;
