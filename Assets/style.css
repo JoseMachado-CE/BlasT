@@ -405,6 +405,15 @@ iframe {
 
 
 
+/*------------ Gallery -------*/
+
+.carousel-inner .img-gallery {
+    height: 700px;
+}
+
+/*------------ Gallery end -------*/
+
+
 /*------------ Contact  -------*/
 
 #contact{
@@ -786,7 +795,9 @@ footer {
         margin-right: 30px;
     }
 
-    
+    .carousel-inner .img-gallery {
+        height: 350px;
+    } 
 
     .footer {
         background-color: #212121;
@@ -878,6 +889,10 @@ footer {
         border: 0;
         outline: 0;
     }
+
+    .carousel-inner .img-gallery {
+        height: 350px;
+    }      
 
     #btn-contact {
         background-color: #ffa500;
