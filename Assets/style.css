@@ -539,8 +539,6 @@ iframe {
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
 
-  
-
     .wrapper-content{
         width: 100%;
     }
@@ -553,9 +551,8 @@ iframe {
         padding-right: 20px;
     }
 
-    .btn {
+    #btn-contact {
         background-color: #ffa500;
-        color: #212121;
         width: 50%;
     }
 
@@ -566,6 +563,29 @@ iframe {
         background-color: #ffa500;
         border: 0;
         outline: 0;
+    }
+
+    .carousel-caption .btn2{
+        width: 350px;
+        background-color: #ffa500;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #212121;
+    }
+
+    .carousel img {
+        height: 330px;
+    }
+
+    .title-carousel {
+        font-size: 30px;
+    }
+
+    .p-carousel {
+        font-size: 15px;
     }
 
     .testemonial img {
