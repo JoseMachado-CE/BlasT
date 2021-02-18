@@ -553,6 +553,12 @@ iframe {
         padding-right: 20px;
     }
 
+    .btn {
+        background-color: #ffa500;
+        color: #212121;
+        width: 50%;
+    }
+
     .btn1{
         padding: .5rem 1rem;
         font-size: 1.25rem;
