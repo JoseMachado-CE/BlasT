@@ -537,7 +537,7 @@ iframe {
     }
 }
 
-@media screen and (min-width: 420px) and (max-width: 768px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
 
   
 
@@ -563,9 +563,8 @@ iframe {
     }
 
     .testemonial img {
-        width: 250px;
-        height: 250px;
-        margin: 0;
+        width: 350px;
+        height: 380px;
     }
 
     
@@ -575,8 +574,14 @@ iframe {
     }
 
     iframe {
-        width: 280px;
-        height: 300px;
+        width: 350px;
+        height: 380px;
+        
+    }
+
+    #map iframe {
+        width: 200%;
+        margin-left: 5%;
     }
 
     .col-6 iframe {
