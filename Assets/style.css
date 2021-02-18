@@ -460,13 +460,19 @@ iframe {
     }
 
     .testemonial img {
-        width: 350px;
-        height: 350px;
+        width: 270px;
+        height: 300px;
+        margin-left: 5px;
     }
 
     iframe {
-        width: 350px;
-        height: 370px;
+        width: 270px;
+        height: 320px;
+        margin-left: 5px;
+    }
+    .gizas {
+        margin-left: 20px;
+        
     }
 
     #giza {
@@ -543,7 +549,7 @@ iframe {
     }
 }
 
-@media screen and (min-width: 375px) and (max-width: 768px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
 
     .wrapper-content{
         width: 100%;
