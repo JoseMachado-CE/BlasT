@@ -490,6 +490,12 @@ iframe {
         margin-top: 30px;
         height: 370px;
     }
+
+    iframe {
+        width: 360px;
+        height: 390px;
+        margin-left: 5px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -592,6 +598,9 @@ iframe {
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
+    body {
+        width:400px;
+    }
 
     .wrapper-content{
         width: 100%;
@@ -628,6 +637,15 @@ iframe {
         font-size: 20px;
         text-transform: uppercase;
         color: #212121;
+    }
+
+    .gizas {
+        width: 380px;
+        margin-left: 0;
+    }
+
+    .lead {
+        font-family: Arial, sans-serif;
     }
 
     .carousel img {
@@ -687,7 +705,7 @@ iframe {
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
     .testemonial img {
-        width: 300px;
+        width: 280px;
         height: 300px;
         
     }
@@ -740,9 +758,13 @@ iframe {
     }
 
     iframe {
-        width: 300px;
+        width: 280px;
         height: 300px;
         margin-left: 5px;
+    }
+
+    .gizas {
+        margin-left: 0;
     }
 
     .testemonial {
