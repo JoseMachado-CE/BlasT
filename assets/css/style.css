@@ -16,6 +16,12 @@ body {
 
 
 /*------------ General-------*/
+.divider-pag {
+  border-top: 1px solid #fff;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  
+}
 
 .row {
     position: relative;
@@ -257,7 +263,7 @@ iframe {
     background-size: cover;
     box-shadow: 6px 6px 35px -8px rgba(0,0,0,0.75);
     border-radius: 8px;
-    background-image: url("Images/classe1img.jpg");
+    background-image: url("assets/images/classe1img.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -314,7 +320,7 @@ iframe {
     background-size: cover;
     box-shadow: 6px 6px 35px -8px rgba(0,0,0,0.75);
     border-radius: 8px;
-    background-image: url("Images/image.jpg");
+    background-image: url("assets/images/image.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
