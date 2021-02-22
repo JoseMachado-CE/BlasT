@@ -263,7 +263,7 @@ iframe {
     background-size: cover;
     box-shadow: 6px 6px 35px -8px rgba(0,0,0,0.75);
     border-radius: 8px;
-    background-image: url("/assets/Images/classe1img.jpg");
+    background-image: url("/assets/images/classe1img.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -323,7 +323,7 @@ iframe {
     background-repeat: no-repeat;
     background-blend-mode: soft-light;
     text-decoration: none;
-    background-image: url("/assets/Images/image.jpg");
+    background-image: url("/assets/images/image.jpg");
     
 }
 
