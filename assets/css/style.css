@@ -481,6 +481,7 @@ iframe {
     color: #fff;
     border: none;
     outline: none;
+    text-transform: uppercase;
 }
 
 .btn-outline-primary:hover {
