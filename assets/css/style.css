@@ -16,11 +16,10 @@ body {
 
 
 /*------------ General-------*/
-.divider-pag {
-  border-top: 1px solid #fff;
-  margin-top: 30px;
-  margin-bottom: 50px;
-  
+.hr {
+    border-top: 0.5px solid #fff;  
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .row {
@@ -186,8 +185,8 @@ iframe {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 #can {
@@ -511,6 +510,7 @@ iframe {
 footer {
     padding-top:20px;
 }
+
 .icons-footer {
     display: flex;
     justify-content: flex-end;  
@@ -522,8 +522,21 @@ footer {
     color: #fff;
 }
 
+.title-footer {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
 .fa-facebook:hover {
     color: #4267B2;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+}
+
+.fa-instagram:hover {
+    color: #FD1D1D;
 }
 
 /*------------ Footer end --------*/
@@ -808,11 +821,25 @@ footer {
     .carousel-inner .img-gallery {
         height: 350px;
     } 
-
-    .footer {
-        background-color: #212121;
+    
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .icons-footer a {
+        padding: 0;x
     }
 
+    .icons-footer i {
+        font-size: 15px;
+        color: #fff;
+    }
+
+    .title-footer {
+        font-size: 15px;
+        text-transform: uppercase;
+    }
     
 }
 
@@ -898,6 +925,21 @@ footer {
         background-color: #ffa500;
         border: 0;
         outline: 0;
+    }
+
+    .icons-footer {
+        display: flex;
+        justify-content: flex-end;  
+    }
+
+    .icons-footer i {
+        font-size: 15px;
+        color: #fff;
+    }
+
+    .title-footer {
+        font-size: 12px;
+        text-transform: uppercase;
     }
 
     .carousel-inner .img-gallery {
