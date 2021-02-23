@@ -508,17 +508,19 @@ iframe {
 
 
 /*------------ Footer --------*/
-
 footer {
-    margin-top: 40px;
-    background-color: black;
-    margin-bottom: 0;
+    padding-top:20px;
+}
+.icons-footer {
+    display: flex;
+    justify-content: flex-end;
     
-    margin-top: 10px;
+    
 }
 
-.float-end a {
-    letter-spacing: 20px;
+.icons-footer i {
+    margin: 0 20px;
+    font-size: 25px;
 }
 
 /*------------ Footer end --------*/
