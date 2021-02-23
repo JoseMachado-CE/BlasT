@@ -64,11 +64,15 @@ Thank you
   * All icons used on this website have been selected from [Font Awesome](https://fontawesome.com/)
 #### 4.3 Colors
   * I had the help of a few websites for giving the colors such as [Color Hunt](https://https://colorhunt.co/)
+  * I also had the help of a the website [Brand Pallet](https://brandpalettes.com/)
   * #212121 - Color used for background color 
   * #fff - Color used for majority of content
   * #ffa500 - Ton of orange used on different parts of the website
   * #050505 - Ton of dark for a few parts of the website
-
+  * #FD1D1D - Ton of red for instagram icon hover
+  * #4267B2 - Ton of blue for facebook icon hover
+  * #1DA1F2 - Ton of blue for twitter icon hover
+  
 #### 4.4 Structure
   * I have used the [Bootstrap](https://getbootstrap.com/) structure to give form to this website.
 

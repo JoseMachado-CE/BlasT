@@ -513,14 +513,17 @@ footer {
 }
 .icons-footer {
     display: flex;
-    justify-content: flex-end;
-    
-    
+    justify-content: flex-end;  
 }
 
 .icons-footer i {
     margin: 0 20px;
     font-size: 25px;
+    color: #fff;
+}
+
+.fa-facebook:hover {
+    color: #4267B2;
 }
 
 /*------------ Footer end --------*/
