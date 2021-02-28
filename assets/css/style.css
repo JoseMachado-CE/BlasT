@@ -784,6 +784,7 @@ footer {
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
+   
     body {
         width:400px;
     }
@@ -826,7 +827,6 @@ footer {
         color: #212121;
     }
 
-
     #gizas {
         width: 380px;
         margin-left: 0;
@@ -848,9 +848,24 @@ footer {
         font-size: 15px;
     }
 
+    .testemonial {
+        margin-bottom: 20px;
+    }
+
     .testemonial img {
         width: 350px;
         height: 380px;
+    }
+
+    .featurette-heading{
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    #featurette-heading1 {
+        margin-top: 30px;
+        font-family: 'Monteserrat', sans-serif;
+        color: #ffa500;
     }
 
 
@@ -957,15 +972,15 @@ footer {
     }
 
     .featurette-heading {
-    margin-top: 30px;
-    font-family: 'Monteserrat', sans-serif;
-    color: #ffa500;
+        margin-top: 30px;
+        font-family: 'Monteserrat', sans-serif;
+        color: #ffa500;
     }
 
     #featurette-heading1 {
-    margin-top: 50px;
-    font-family: 'Monteserrat', sans-serif;
-    color: #ffa500;
+        margin-top: 30px;
+        font-family: 'Monteserrat', sans-serif;
+        color: #ffa500;
     }
 
     .title-section {
@@ -1040,6 +1055,10 @@ footer {
         background-color: #ffa500;
         width: 100%;
         margin-left: 0;
+    }
+
+    .context-carousel-1 {
+        margin-bottom: 20px;
     }
 }
 
