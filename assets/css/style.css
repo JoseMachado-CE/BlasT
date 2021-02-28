@@ -351,7 +351,7 @@ iframe {
     box-shadow: 6px 6px 35px -8px rgba(0,0,0,0.55);
 }
 
-.text-schedule2 {
+#text-schedule2 {
     font-family: 'Denk One', sans-serif;
     font-size: 50px;
     color: #ffa500;
