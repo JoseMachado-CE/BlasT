@@ -1,5 +1,5 @@
-# [Welcome to Blast Gym](https://josemachado-ce.github.io/Blast/)
-![I am responsive image](assets/images/mockup_images1)
+# [Welcome to Blast Gym](https://josemachado-ce.github.io/Blast)
+![Mock up image](assets/images/mockup_images1.png)
 This website has been created in order to show the possibility of finding a good gym with an easy access to it. 
 The gym is located in the centre of Dublin.
 Please feel free to go to my Github profile and leave your feedback there.
