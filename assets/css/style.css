@@ -196,8 +196,13 @@ iframe {
 }
 
 #can {
-    margin-top: -35px;
+    
     font-size: 60px;
+    font-family: 'Bungee Shade', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #050505;
+    
 }
 
 #choose {
@@ -616,7 +621,16 @@ footer {
         height: 450px;
         margin-left: 5px;
     } 
-    
+
+    .text-schedule{
+        font-size:35px;
+    }
+
+    #text-schedule2 {
+       font-size:45px;
+       margin-top: 300px;
+    }
+
     .about-img {
         width: 300px;
     }
