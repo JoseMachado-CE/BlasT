@@ -712,6 +712,11 @@ footer {
         width: 80%;
     }
 
+    .carousel-item img{
+        
+       height: 400px;
+    }
+
     .title-carousel {
         font-size: 30px;
         text-transform: uppercase;
@@ -772,6 +777,10 @@ footer {
         width: 50%;
         margin-left: 0;
     }
+
+    #gallery {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
@@ -784,7 +793,7 @@ footer {
     }
 
     .carousel-caption{
-        padding-right: 20px;
+        padding-left: 20px;
     }
 
     .carousel-indicators{
@@ -817,6 +826,7 @@ footer {
         color: #212121;
     }
 
+
     #gizas {
         width: 380px;
         margin-left: 0;
@@ -843,7 +853,6 @@ footer {
         height: 380px;
     }
 
-    
 
     .featurette {
         margin-bottom: 20px;
@@ -851,8 +860,7 @@ footer {
 
     iframe {
         width: 350px;
-        height: 380px;
-        
+        height: 380px;  
     }
 
     #map iframe {
@@ -878,7 +886,7 @@ footer {
     }
     
     .icons-footer a {
-        padding: 0;x
+        padding: 0;
     }
 
     .icons-footer i {
@@ -889,6 +897,10 @@ footer {
     .title-footer {
         font-size: 15px;
         text-transform: uppercase;
+    }
+
+    .context-carousel-1 {
+        margin-bottom: 20px;
     }
     
 }
@@ -967,10 +979,6 @@ footer {
 
     .carousel-item img{
         height: 250px;
-    }
-
-    .carousel-item1 img {
-        height: 240px;
     }
 
     iframe {
