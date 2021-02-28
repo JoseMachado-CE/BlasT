@@ -568,8 +568,8 @@ footer {
     }
 
     .testemonial img {
-        width: 500px;
-        height: 500px;
+        width: 400px;
+        height: 400px;
         margin-left: 5px;
     }
 
@@ -584,7 +584,7 @@ footer {
     }
 
     #gizas {
-        margin-left: 20px;
+        margin-left: 50px;
     }
 
     #schedule {
@@ -597,6 +597,36 @@ footer {
         width:100%;
         margin-top: 8px;
         text-align: center;
+    }
+
+    
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px)
+
+{
+
+    #wrapper-content{
+        width: 100%;
+        
+    }
+
+   .testemonial img {
+        width: 450px;
+        height: 450px;
+        margin-left: 5px;
+    } 
+    
+    .about-img {
+        width: 300px;
+    }
+
+    #about-img1 {
+        width: 300px;
+    }
+
+    #about-img2 {
+        width: 300px;
     }
 
     
