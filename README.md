@@ -224,21 +224,18 @@ Image now shows nicely on all devices and browsers.
 #### Hamburger dropdown menu
 
 * **Bug**    
-On mobile devices when you click the hamburger icon, the menu appears nicely. 
-Whenever you click on one of the links the dropdown menu doesn't dissapear but stays open. 
-This is not a good user experience.
+On mobile devices the navigation bar would collapse but I noticed that it would not open after clicking on the button.
 
 * **Verdict**   
-I did various research to have this resolved but at this moment I don't have the required skills yet. 
-This would be fixed in futher releases. 
+After some researchs I could verify that my JS code from boostrap was wrong so I have fixed it and then the hambuguer button was working and openning normally.
 
 #### Icons
 
 * **Bug**    
-The social media icons didn't show nicely on mobile. One appeared below the other 2 instead of all 3 next to each other.
+The socia media icons was not being displayed properly on mobile screens. It would not bring a good experience to the user when surfing the website.
 
 * **Fix**    
-Reduced the font-size and padding which resolved the issue immediately.
+I made it look smaller on mobile screen and I added a space between each icon.
 
 * **Verdict**    
 Icons now show nicely next to each other on all devices and browsers. 
@@ -246,14 +243,32 @@ Icons now show nicely next to each other on all devices and browsers.
 #### Navigation menu on smaller screensizes 
 
 * **Bug**    
-When the screen gets smaller, the fontsize of the navigation bar is too small and the collapse button goes off the screen. 
+I noticed the same bug mentioned above with the button not working properly after clicking the button.
 
 * **Fix**        
-Removed the display: block and updated the width to 100% instead of 100vw like the assessor suggested. 
-Updated the font-size as well in order to be more easy to read. 
+I fixed the JS code which has provided by Bootstrap.
 
 * **Verdict**    
-Bug was resolved and navigation bar now works as planned and is more userfriendly. 
+Bug was solved making the user experience good.
+
+## Deployment
+
+This project has been deployed with GitHub by executing the following steps.
+After writing the code I would save and then I would commit it and finally I would push it to GitHub.
+
+1. Navigate to the repository on github and click **Settings**.
+1. From there, go to the **Source section** within the Github Pages section.
+1. Select **master branch** on the dropdown menu, and click save.
+1. Now the website is live on **https://github.com/JoseMachado-CE/Blast**
+1. Any time commits and pushes are sent to Github, the Github Pages site should update shortly after.
+
+To run the project locally:
+
+1. Click the **green Clone or Download button** on the Github Repository
+1. Using the **Clone with HTTPS option**, copy the link displayed.
+1. Open your IDE, and ensure the Git Terminal is open.
+1. Change the working directory to the location where the cloned directory is to go.
+1. Use the **"git clone" command** and paste the url copied in the second step.
 
 ## Credits
 
