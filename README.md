@@ -104,6 +104,11 @@ I have decided to come up with a hero image to main page. The hero image structu
 #### Testemonials
 On the testemonials section, I decided to go with 2 customers testemonials and their respective pictures. After the 2 testemonials I put up a iframe which is a video from youtube with a professional athlete to motivate even more the customers when they surf the website.
 
+#### Schedule
+On the schedule area I have given the schedule from monday to friday and the schedule for saturdays and bank holidays. Along with the schedule I have put 2 big banners to motivate even more people to sign up.
+
+#### Gallery
+For this area of the website, I have added a carousel which structure has been taken from bootstrap. This carousel contains 3 pictures and the purpose of this carousel is bring the customer attention to the website and then sign up.
 ### 2. Features Left to be implemented
 Join in page after clicking the join button
 Links to external partners
