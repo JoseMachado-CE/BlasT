@@ -170,40 +170,31 @@ I do not have the proper skills to add these changes I believe. I had to be trai
 I did use bootstrap to link the "join in" button on the website to take the customer to the contact form area.
 
 * **Test**    
-I have tested both modals on various devices and browsers. 
-The modal was nicely centered and feels in line with the overall website. 
-The promotion modal is being triggered by clicking the button and the submitting modal is triggered whenever the form was filled in correctly. 
+I have tested the modal on various devices and browsers. 
+The modal was very successfull taking the customer to where I wanted.
 
 * **Result**    
-The modals opened up when the correct button was clicked and appeared centered on the screen.
+The modal opened where and when it was supposed to happen.
 
 * **Verdict**    
-The modals works as planned and met all the criteria. 
+The modal works as planned and met all the criteria. 
 
 
 ### Contact Form 
 * **Plan**    
-I want to include a contact form which the user can fill in when they want to reach out to the owners directly.
-They should insert their name, email address & phone number so the owners can easily get back to them. 
-They should also be able include a message with the questions they are having. 
-Whenever they submit the form, I want a modal to open up in order to give feedback to the user that the form has been submitted correctly.
+I wanted to have a contact form that could take a few details from the customer and then be sent to the website administrator. This would have a "send" button which would do the job to the send the data do the website administration.
 
 * **Implementation**    
-In order to implement this, I have created a form in my index.html with 3 input fields, 1 textarea field and a submit button. 
-As it is a small & simple form, I have decided to not work with labels but placeholders instead. 
-I made sure that the form was styled according to the rest of the website. 
+To go forward with this form I have taken the structure from the bootstrap website and I just had to change a few things to look like what I wanted. The form has 4 spaces to be filled out by the customer. It comes with a button as well.
 
 * **Test**    
-When I tested the form, I noticed that the modal opened up eventhough the form was not filled in. 
-This gave the wrong feedback to the user. As I didn't have the required skills to implement form validation, I discussed this with my mentor. 
-My mentor wrote a small part of JavaScript which I was able to implement in order for the form not being able to be submitted without the required fields being filled in. 
-The data that is being inserted is currently not send anywhere as I don't have the knowledge yet but this is on the list with future features to be implemented. 
+When I tested the form I noticed that it would not tell the customer in case they filled out the form wrongly. I believe that some JS skill were missing in order to do this.
 
 * **Result**    
-After implementing the JavaScript, the form worked as planned and provided the correct feedback to the user.
+The result is still needs the JS code to make it work as planned.
 
 * **Verdict**    
-The form met all the criteria and works as planned. 
+The form does not meet all the criteria and works as planned. 
 
 
 ### Bugs
@@ -211,13 +202,10 @@ The form met all the criteria and works as planned.
 #### Form validation
 
 * **Bug**    
-The user is able to submit the form without filling in the fields. Modal always appears. 
-This provides the wrong feedback to the user.
+The customer is able to submit the form without filling all necessary information on the form. This is not the expected experience for the customer.
 
 * **Fix**        
-As I don't have the required skills yet to implement form validation, I discussed this with my mentor. 
-He wrote a small piece of JavaScript which I could implement in my code. 
-Like this, the form couldn't be submitted without all the fields being filled in and the modal only opened whenever the form was submitted correctly.
+JS skills were missing to do a better job here. A piece of JS code has been given to me by my mentor in order to overturn this problem.
 
 * **Verdict**    
 Bug was resolved and form now works as planned. 
@@ -225,11 +213,10 @@ Bug was resolved and form now works as planned.
 #### Hero Image
 
 * **Bug**    
-The hero image looked nice on normal browsers but the quality on safari on mobile was very bad. 
+The hero image looked very good on big screens but it would not look that good when the screen reduced size.
 
 * **Fix**    
-Tried various fixes but none of them seemed to be working. 
-After talking to my mentor, we changed the background-attachment to scroll on mobile and this resolved the bug. 
+After talking to my mentor we came up with a solution in order to fix this problem which was changing the background-attachment to scroll on mobile.
 
 * **Verdict**    
 Image now shows nicely on all devices and browsers.
