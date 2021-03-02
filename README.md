@@ -119,23 +119,26 @@ On pricing, the gym has 3 plans which the customer has the power of choosing wha
 #### Contact
 On contact, I have added a contact form which structure has been taken from bootstrap. A photo has also been added right next to the form. The purpose of this photo is to make clear what the customer already wants which is be healthier.
 
-### Features Left to be implemented
+### Features to be implemented
 * Join in page after clicking the join button
 * Links to external partners
 * Database to store all customers data
 * Chatbot to make user experience smoothier 
 
-## Technologies to use
+## Technologies used
 ### Languages
-[HTML5](https://en.wikipedia.org/wiki/HTML5) - used to create the HTML base.
-[CSS](https://en.wikipedia.org/wiki/CSS) - used to give style to the HTML5 elements.
-### Tools and libraries
-[Bootstrap](https://getbootstrap.com) - I used bootstrap for the navigation bar, carousel, pricing and footer
-[Google Fonts](https://fonts.google.com/) -  I used google fonts for typography.
-[Font Awesome](https://fontawesome.com/) - I used font Awesome for Icons.
-[Gitpod](https://www.gitpod.io/) - I used gitpod for better tracebility.
-[Github](https://github.com/) - I used github for creating my repository
-[Git](https://git-scm.com/) - I used git as version control for better record of my coding.
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) - used to create the HTML base.
+* [CSS](https://en.wikipedia.org/wiki/CSS) - used to give style to the HTML5 elements.
+* [Google Fonts](https://fonts.google.com/)
+
+### Tools
+* [Bootstrap](https://getbootstrap.com) - I used bootstrap for the navigation bar, carousel, pricing and footer
+* [Font Awesome](https://fontawesome.com/) - I used font Awesome for Icons.
+* [Gitpod](https://www.gitpod.io/) - I used gitpod for better tracebility.
+* [Github](https://github.com/) - I used github for creating my repository
+* [Git](https://git-scm.com/) - I used git as version control for better record of my coding.
+* [Balsamic](https://balsamiq.com/wireframes/) - I Used it to create the Wireframes
+* [Ami Mockup Image]((http://ami.responsivedesign.is/)) - I used it to create the mockup image with the website displayed in 4 different device frames.
 ## Testing
 [W3C Markup Validation](https://validator.w3.org/) - I used this website to validate the HTML
 [W3 CSS Validation Service](https://jigsaw.w3.org/css-validator/) - I used this website to validate CSS
