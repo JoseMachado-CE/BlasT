@@ -74,14 +74,14 @@ Thank you
   * I also used the website [Coloors](https://coloors.co/) for make the colors pallet.
   ![Color Scheme](assets/images/palette.pdf)
   * #212121 - Color used for background color 
-  * #fff - Color used for majority of content
-  * #ffa500 - Ton of orange used on different parts of the website
-  * #050505 - Ton of dark for a few parts of the website
-  * #FD1D1D - Ton of red for instagram icon hover
-  * #4267B2 - Ton of blue for facebook icon hover
-  * #1DA1F2 - Ton of blue for twitter icon hover
-  
-#### 4.4 Structure
+  * #fff - White color used on the website
+  * #ffa500 - orange used on different parts of the website
+  * #050505 - Black color for a few parts of the website
+  * #FD1D1D - Redfor instagram icon hover
+  * #4267B2 - Blue for facebook icon hover
+  * #1DA1F2 - Blue for twitter icon hover   
+
+#### 5.4 Structure
   * I have used the [Bootstrap](https://getbootstrap.com/) structure to give form to this website.
 
 ## Wireframes
@@ -95,13 +95,8 @@ I have decided to use [Balsamiq Wireframes](https://balsamig.com) to create 3 di
 
 ## Features
 ### 1. Existing Features
-Designed with HTML5, CSS3 and Bootstrap.
-I decided to go with a carousel slide on the top of the page to make it more attractive.
-Then I put up 2 customers testemonials just to make it more trustworthy.
-After the customers testemonials I have put up the schedule for the classes.
-I threw more images below the schedule for make user still scroll down the page.
-After the gallery I have the location of the gym displayed there on the website.
-And then I have decided to break down the price in 3 plans with contact form coming after the pricing.
+#### Navigation
+The navigation bar that I have used on the website is one of the option that can be found on bootstrap website. It's a navbar with a brand logo on the top left and 6 more nav itens on the top right. It's a sticky navbar so, the customer will have the navbar following the cursor whichever the way the customer scrools.
 
 ### 2. Features Left to be implemented
 Join in page after clicking the join button
