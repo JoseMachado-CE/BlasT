@@ -109,11 +109,21 @@ On the schedule area I have given the schedule from monday to friday and the sch
 
 #### Gallery
 For this area of the website, I have added a carousel which structure has been taken from bootstrap. This carousel contains 3 pictures and the purpose of this carousel is bring the customer attention to the website and then sign up.
-### 2. Features Left to be implemented
-Join in page after clicking the join button
-Links to external partners
-Database to store all customers data
-Chatbot to make user experience smoothier 
+
+#### Location
+On the location I have only put the address of the GYM with a map right below the address. The map is an iframe taken from google maps.
+
+#### Pricing
+On pricing, the gym has 3 plans which the customer has the power of choosing whatever plan suits them best. 
+
+#### Contact
+On contact, I have added a contact form which structure has been taken from bootstrap. A photo has also been added right next to the form. The purpose of this photo is to make clear what the customer already wants which is be healthier.
+
+### Features Left to be implemented
+* Join in page after clicking the join button
+* Links to external partners
+* Database to store all customers data
+* Chatbot to make user experience smoothier 
 
 ## Technologies to use
 ### Languages
