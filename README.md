@@ -140,14 +140,133 @@ On contact, I have added a contact form which structure has been taken from boot
 * [Balsamic](https://balsamiq.com/wireframes/) - I Used it to create the Wireframes
 * [Ami Mockup Image]((http://ami.responsivedesign.is/)) - I used it to create the mockup image with the website displayed in 4 different device frames.
 ## Testing
-[W3C Markup Validation](https://validator.w3.org/) - I used this website to validate the HTML
-[W3 CSS Validation Service](https://jigsaw.w3.org/css-validator/) - I used this website to validate CSS
-Website Tested on iphone, Tablet and Desktop.
-Tested carousel to be displayed on iphone, tablet and Desktop.
-Tested navbar on different screens to see if wont break.
-Tested collapse toogle navigation button to see whether it will work when navbar collapse.
-All code for this website has been written on gitpod.
-After saving and commiting code I pushed the code to github so it could get stored in my repository.
+### Navigation bar
+
+* **Plan**    
+I want to include a navigation bar which will be sticky top.
+The customer will have the experience of having the navbar whichever the way they go. It give a facility to go to different areas on the website without going to the top of the page with a normal navbar. 
+On small screens the navbar collapses making the customer experience smoothier.
+
+* **Implementation**   
+The whole navbar structure has been taken from bootstrap which makes it better displayed on different screens. I have used also css to overwrite a few bits of code in order to make what I wanted.
+
+* **Test**    
+To test it I have opened the website on different browsers just to see if the navbar would not get off. I also changed the size of the screen using inspect just to see if the navbar would change according to the size of the screen. It was also checked the hambuguer button when the screen had been displayed on mobile screens.
+
+* **Result**    
+The navigation bar shows nicely like expected on all browsers and devices. 
+I had to notice that the Navigation bar when collapsed and turning into the hamburguer button was a bit too close to the edge of the page so, I had to move it a bit to the left to make better the user experience.
+All the link was working as well. 
+
+* **Verdict**    
+The test has passed all the criteria and works like planned.
+
+### Modals
+* **Plan**    
+I want to implement 2 modals which are when a customer click on the button "join in" the button takes the customer to a diferent page where the customer could fill out all their details and then proceed with the registration. The other modal would be a feedback to the customer in case they fill out the forms not properly.
+
+* **Implementation**    
+I do not have the proper skills to add these changes I believe. I had to be trained on JS in order to have this feedback to the customer and I believe that I had to know some type of back end and cloud in order to create this sign up area for the customer. 
+I did use bootstrap to link the "join in" button on the website to take the customer to the contact form area.
+
+* **Test**    
+I have tested both modals on various devices and browsers. 
+The modal was nicely centered and feels in line with the overall website. 
+The promotion modal is being triggered by clicking the button and the submitting modal is triggered whenever the form was filled in correctly. 
+
+* **Result**    
+The modals opened up when the correct button was clicked and appeared centered on the screen.
+
+* **Verdict**    
+The modals works as planned and met all the criteria. 
+
+
+### Contact Form 
+* **Plan**    
+I want to include a contact form which the user can fill in when they want to reach out to the owners directly.
+They should insert their name, email address & phone number so the owners can easily get back to them. 
+They should also be able include a message with the questions they are having. 
+Whenever they submit the form, I want a modal to open up in order to give feedback to the user that the form has been submitted correctly.
+
+* **Implementation**    
+In order to implement this, I have created a form in my index.html with 3 input fields, 1 textarea field and a submit button. 
+As it is a small & simple form, I have decided to not work with labels but placeholders instead. 
+I made sure that the form was styled according to the rest of the website. 
+
+* **Test**    
+When I tested the form, I noticed that the modal opened up eventhough the form was not filled in. 
+This gave the wrong feedback to the user. As I didn't have the required skills to implement form validation, I discussed this with my mentor. 
+My mentor wrote a small part of JavaScript which I was able to implement in order for the form not being able to be submitted without the required fields being filled in. 
+The data that is being inserted is currently not send anywhere as I don't have the knowledge yet but this is on the list with future features to be implemented. 
+
+* **Result**    
+After implementing the JavaScript, the form worked as planned and provided the correct feedback to the user.
+
+* **Verdict**    
+The form met all the criteria and works as planned. 
+
+
+### Bugs
+
+#### Form validation
+
+* **Bug**    
+The user is able to submit the form without filling in the fields. Modal always appears. 
+This provides the wrong feedback to the user.
+
+* **Fix**        
+As I don't have the required skills yet to implement form validation, I discussed this with my mentor. 
+He wrote a small piece of JavaScript which I could implement in my code. 
+Like this, the form couldn't be submitted without all the fields being filled in and the modal only opened whenever the form was submitted correctly.
+
+* **Verdict**    
+Bug was resolved and form now works as planned. 
+
+#### Hero Image
+
+* **Bug**    
+The hero image looked nice on normal browsers but the quality on safari on mobile was very bad. 
+
+* **Fix**    
+Tried various fixes but none of them seemed to be working. 
+After talking to my mentor, we changed the background-attachment to scroll on mobile and this resolved the bug. 
+
+* **Verdict**    
+Image now shows nicely on all devices and browsers.
+
+#### Hamburger dropdown menu
+
+* **Bug**    
+On mobile devices when you click the hamburger icon, the menu appears nicely. 
+Whenever you click on one of the links the dropdown menu doesn't dissapear but stays open. 
+This is not a good user experience.
+
+* **Verdict**   
+I did various research to have this resolved but at this moment I don't have the required skills yet. 
+This would be fixed in futher releases. 
+
+#### Icons
+
+* **Bug**    
+The social media icons didn't show nicely on mobile. One appeared below the other 2 instead of all 3 next to each other.
+
+* **Fix**    
+Reduced the font-size and padding which resolved the issue immediately.
+
+* **Verdict**    
+Icons now show nicely next to each other on all devices and browsers. 
+
+#### Navigation menu on smaller screensizes 
+
+* **Bug**    
+When the screen gets smaller, the fontsize of the navigation bar is too small and the collapse button goes off the screen. 
+
+* **Fix**        
+Removed the display: block and updated the width to 100% instead of 100vw like the assessor suggested. 
+Updated the font-size as well in order to be more easy to read. 
+
+* **Verdict**    
+Bug was resolved and navigation bar now works as planned and is more userfriendly. 
 
 ## Credits
 
