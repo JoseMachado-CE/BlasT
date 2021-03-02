@@ -32,7 +32,7 @@ Thank you
 
   --- 
 ## User Experience
-### 1. User Goals
+### User Goals
   * A website with enough content to understand the service being offered
   * A website with good color contrast 
   * Information about who serves the service
@@ -40,36 +40,36 @@ Thank you
   * Form details to get in Contact
   * Quality information about prices
   * Customers Testemonials
-### 2. User Stories
+### User Stories
   * A user wants to easily find the service details
   * A user wants to quickly find what they are looking Form
   * A user wants to find other customers reviews to feel confident themselves
   * A user wants to easily find the gym location
   * A user wants to navigate smooth on the webiste displayed on tablets and cellphones
   * A user wants to find different social medias associated to the website
-### 3. Site Owners Goals
+### Site Owners Goals
   * Advertise the Gym
   * Bring more people to join in the gym
   * Bring a new gym to irish society
-### 4. User Requirements and Expectations
-#### 4.1 Requirements
+### User Requirements and Expectations
+#### Requirements
   * Easy to navigate
   * Appropriate Content about the service
   * Good color contrast 
   * Quick way to contact the seller
   * Good information on pricing
-#### 4.2 Expectations
+#### Expectations
   * Proper information about location
   * Relevant social medias
   * Nice gallery to call customer attention
   * Links that dont brake
   * Quick return from seller
-### 5. Design Choices
-#### 5.1 Fonts
+### Design Choices
+#### Fonts
   * The fonts used one the website have been selected from [Google fonts](https://fonts.google.com/) which will proabably work on almost all web browsers
-#### 5.2 Icons
+#### Icons
   * All icons used on this website have been selected from [Font Awesome](https://fontawesome.com/)
-#### 5.3 Colors
+#### Colors
   * I had the help of a few websites for giving the colors such as [Color Hunt](https://https://colorhunt.co/)
   * I also used the website [Coloors](https://coloors.co/) for make the colors pallet.
   ![Color Scheme](assets/images/palette.pdf)
@@ -81,7 +81,7 @@ Thank you
   * #4267B2 - Blue for facebook icon hover
   * #1DA1F2 - Blue for twitter icon hover   
 
-#### 5.4 Structure
+#### Structure
   * I have used the [Bootstrap](https://getbootstrap.com/) structure to give form to this website.
 
 ## Wireframes
@@ -97,6 +97,12 @@ I have decided to use [Balsamiq Wireframes](https://balsamig.com) to create 3 di
 ### 1. Existing Features
 #### Navigation
 The navigation bar that I have used on the website is one of the option that can be found on bootstrap website. It's a navbar with a brand logo on the top left and 6 more nav itens on the top right. It's a sticky navbar so, the customer will have the navbar following the cursor whichever the way the customer scrools.
+
+#### Hero image
+I have decided to come up with a hero image to main page. The hero image structure has been taken from bootstrap website. It contains 3 pictures with a button on each slide.
+
+#### Testemonials
+On the testemonials section, I decided to go with 2 customers testemonials and their respective pictures. After the 2 testemonials I put up a iframe which is a video from youtube with a professional athlete to motivate even more the customers when they surf the website.
 
 ### 2. Features Left to be implemented
 Join in page after clicking the join button
