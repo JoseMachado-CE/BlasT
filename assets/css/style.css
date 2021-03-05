@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Denk+One&family=Lato:wght@100&family=Raleway:wght@200&family=Roboto:wght@300&display=swap');
 
 body {
     font-weight: 400;
@@ -23,7 +24,8 @@ body {
 
 /* Navbar */
 .navbar {
-    background-color: #212121;;
+    background-color: #212121;
+    text-transform: uppercase;
 }
 
 /* Navbar  end */
@@ -151,7 +153,6 @@ body {
 
 #about-img1 {
     margin: 20px;
-    background-color: #ffa500;
     background-size: cover;
     box-shadow: 6px 6px 35px -8px rgba(0,0,0,0.75);
     border-radius: 8px;
@@ -292,6 +293,7 @@ body {
 .fa-stopwatch {
     font-size: 120px;
     margin-left: 40px;
+    color: #212121;
 }
 
 
@@ -304,4 +306,119 @@ body {
 
 .footer {
     color: #fff;
+    margin-top: 35px;
+}
+
+.card {
+    background-color: #ffa500;
+    color: #050505;
+}
+
+.card-header {
+    border-bottom: 1px solid #fff;
+}
+
+.btn-outline-primary {
+    background-color: #212121;
+    color: #fff;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+}
+
+.btn-outline-primary:hover {
+    background-color: #212121;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn-primary {
+   background-color: #212121;
+    color: #fff; 
+    outline: none;
+    border: none;
+}
+
+.btn-primary:hover {
+   background-color: #212121;
+    color: #fff; 
+    border: 1px solid #fff;
+}
+
+.btn-primary1 {
+    background-color: #ffa500;
+    width: 40%;
+    text-transform: uppercase; 
+}
+
+.btn-primary1:hover {
+    border: 1px solid #fff;
+}
+
+.navbar1 {
+    background-color: #ffa500;
+    text-align: center;
+}
+
+#sticky-stop {
+    text-decoration: none;
+    color: #212121;
+    font-size: 20px;
+}
+
+#sticky-stop:hover {
+    color: #fff;  
+}
+
+.navbar-brand {
+    font-size: 40px;
+}
+.T-brand {
+    color: #ffa500;
+}
+.icons-footer i {
+    margin: 0 20px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.icons-footer {
+    display: flex;
+    justify-content: flex-end;  
+}
+
+.fa-facebook:hover {
+    color: #4267B2;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+}
+
+.fa-instagram:hover {
+    color: #FD1D1D;
+}
+
+.title-carousel {
+    font-size: 55px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.p-carousel {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.carousel-caption .btn2{
+    width: 300px;
+    background-color: #ffa500;
+    padding: 10px 100px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #212121;
 }
