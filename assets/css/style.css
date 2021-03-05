@@ -6,6 +6,7 @@ body {
     position: relative;
     font-size: 1.5rem;
     background-color: #212121;
+    color: #fff;
 }
 /* General */
 
@@ -296,3 +297,11 @@ body {
 
 /* Schedule  end */
 
+.map {
+    width: 70rem;
+    height: 30rem;
+}
+
+.footer {
+    color: #fff;
+}
