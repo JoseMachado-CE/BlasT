@@ -439,6 +439,13 @@ body {
     
 }
 
+@media screen and (min-width: 768) {
+    .img-cont {
+       width:80%; 
+    }
+}
+
+
 @media screen and (max-width: 320px) {
     .carousel-caption .btn2{
         width: 300px;
