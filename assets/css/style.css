@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Denk+One&family=Lato:wght@100&family=Raleway:wght@200&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Denk+One&family=Lato:wght@100&family=Raleway:wght@200&family=Roboto:wght@300&display=swap/css2?family=Anton&display=swap');
 
 body {
     font-weight: 400;
@@ -36,20 +36,6 @@ body {
     color: #fff;
 }
 
-.resp-container {
-    position: relative;
-    overflow: hidden;
-    padding-top: 56.25%;
-}
-
-.resp-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-}
 /* Testemonial  end */
 
 /* Schdule */
@@ -426,6 +412,13 @@ body {
 .featurette-heading {
     margin-top: 10%;
 }
+
+.fw-light {
+    text-transform: uppercase;
+    font-size: 12vh;
+    font-family: 'Anton',sans-serif;
+}
+
 @media screen and (max-width: 768px){
     .title-carousel {
         font-size: 30px;
