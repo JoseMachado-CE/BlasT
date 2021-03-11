@@ -174,7 +174,9 @@ body {
     margin-bottom: 20px;
     border-radius: 0;
     box-shadow: 6px 6px 35px -8px rgba(0,0,0,0.55);
+    filter: brightness(89%);
 }
+
 
 .container-about2 {
     display: -webkit-box;
@@ -202,7 +204,8 @@ body {
     background-repeat: no-repeat;
     background-blend-mode: soft-light;
     text-decoration: none;
-    background-image: url("/assets/images/image.jpg");
+    background-image: url("/assets/images/joinus.jpg");
+    filter: brightness(100%);
     
 }
 
@@ -238,6 +241,7 @@ body {
     text-transform: uppercase;
     margin-top: 80%;
     margin-left: 50%;
+    background-image: ;
 }
 
 .container-about {
