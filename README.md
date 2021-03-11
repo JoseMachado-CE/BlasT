@@ -138,7 +138,8 @@ On contact, I have added a contact form which structure has been taken from boot
 * [Github](https://github.com/) - I used github for creating my repository
 * [Git](https://git-scm.com/) - I used git as version control for better record of my coding.
 * [Balsamic](https://balsamiq.com/wireframes/) - I Used it to create the Wireframes
-* [Ami Mockup Image]((http://ami.responsivedesign.is/)) - I used it to create the mockup image with the website displayed in 4 different device frames.
+* [Ami Mockup Image](http://ami.responsivedesign.is/) - I used it to create the mockup image with the website displayed in 4 different device frames.
+* [Developer Mozilla](http://developer.mozilla.org) - I used this website to get the code for the carousel animation effect.
 ## Testing
 ### Navigation bar
 
