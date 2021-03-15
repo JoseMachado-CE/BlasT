@@ -441,7 +441,23 @@ body {
     font-size: 12vh;
     font-family: 'Anton',sans-serif;
 }
+@media screen and (min-width: 1200px){
+    .about-intro {
+        width: 300px;
+    }
 
+    .about-intro1 {
+        width: 300px;
+    }
+
+    .about-intro2 {
+        width: 300px;
+    }
+
+    .text-schedule {
+        font-size: 38px;
+    }
+}
 @media screen and (max-width: 768px){
     .title-carousel {
         font-size: 30px;
