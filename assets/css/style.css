@@ -58,7 +58,6 @@ header {
 .navbar {
     background-color: #212121;
     text-transform: uppercase;
-    
 }
 
 .alert1 {
@@ -270,7 +269,6 @@ header {
     filter: brightness(89%);
 }
 
-
 .container-about2 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -299,7 +297,6 @@ header {
     text-decoration: none;
     background-image: url("../images/joinus.jpg");
     filter: brightness(100%);
-    
 }
 
 #about-img2:hover {
@@ -411,6 +408,10 @@ header {
 }
 
 /* ----------- Footer ------------- */
+#footer .row {
+    line-height: 20px;
+    padding-top: 15px;
+}
 
 .footer {
     color: #fff;
@@ -469,7 +470,6 @@ header {
         text-align: center;
         
     }
-    
 }
 
 @media screen and (min-width: 768) {
