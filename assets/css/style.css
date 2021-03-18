@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Denk+One&family=Lato:wght@100&family=Raleway:wght@200&family=Roboto:wght@300&display=swap/css2?family=Anton&display=swap');
 
-/* --------- General --------- */
+/* -- General -- */
 body {
     font-weight: 400;
     padding: 0;
@@ -83,7 +83,7 @@ header {
     color: #ffa500;
 }
 
-/* ---------- Carousel --------- */
+/*-- Carousel --*/
 
  .animation-blast {
   animation-duration: 2s;
@@ -126,7 +126,7 @@ header {
   }
 }
 
-/* ---------- Testemonial ---------- */
+/*-- Testemonial --*/
 
 #testemonial {
     color: #fff;
@@ -136,7 +136,7 @@ header {
     margin-top: 10%;
 }
 
-/* ---------- Schedule -------------- */
+/*-- Schedule --*/
 .location-text {
     text-align: center;
 }
@@ -385,7 +385,7 @@ header {
 }
 
 
-/* ---------- Pricing ----------- */
+/*-- Pricing --*/
 
 .card {
     background-color: #ffa500;
@@ -407,7 +407,7 @@ header {
     border: 1px solid #fff;
 }
 
-/* ----------- Footer ------------- */
+/*-- Footer --*/
 #footer .row {
     line-height: 20px;
     padding-top: 15px;
@@ -441,7 +441,7 @@ header {
     color: #FD1D1D;
 }
 
-/* ------- MEDIA QUERIES-------- */
+/*-- MEDIA QUERIES --*/
 @media screen and (min-width: 1200px){
     .about-intro {
         width: 300px;
