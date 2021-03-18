@@ -473,7 +473,24 @@ footer .row {
     }
 }
 
-@media screen and (max-width: 768px){
+
+@media screen and (min-width: 768px) {
+    .img-cont {
+       width:80%; 
+    }
+
+    .featurette-heading {
+        margin: 0;
+    }
+
+    #giza-area {
+        margin-top: 10px;
+    }
+
+    #iframe-video {
+        padding-top: 40px;
+    }
+
     .title-carousel {
         font-size: 30px;
         text-transform: uppercase;
@@ -483,12 +500,8 @@ footer .row {
         text-align: center;
         
     }
-}
 
-@media screen and (min-width: 768px) {
-    .img-cont {
-       width:80%; 
-    }
+
 }
 
 
