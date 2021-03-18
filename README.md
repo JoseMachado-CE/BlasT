@@ -71,8 +71,10 @@ Thank you
   * All icons used on this website have been selected from [Font Awesome](https://fontawesome.com/)
 #### Colors
   * I had the help of a few websites for giving the colors such as [Color Hunt](https://https://colorhunt.co/)
-  * I also used the website [Coloors](https://coloors.co/) for make the colors pallet.
-  ![Color Scheme](assets/images/palette.pdf)
+
+  * I also used the website [Coloors](https://coolors.co/) for make the colors pallet.
+
+  ![Color Scheme](assets/images/palette.png)
   * #212121 - Color used for background color 
   * #fff - White color used on the website
   * #ffa500 - orange used on different parts of the website
