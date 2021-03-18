@@ -25,7 +25,7 @@ Thank you
     * [Features to be implemented](#features-to-be-implemented)
 * [Technologies used](#technologies-used)
     * [Languages](#languages)
-    * [Library & Frameworks](#library&framework)
+    * [Tools and Libraries](#tools-and-libraries)
     * [Tools](#tools)
 * [Testing](#testing)
 * [Deployment](#deployment)
@@ -197,13 +197,13 @@ The modal works as planned and met all the criteria.
 I wanted to have a contact form that could take a few details from the customer and then be sent to the website administrator. This would have a "send" button which would do the job to the send the data do the website administration.
 
 * **Implementation**    
-To go forward with this form I have taken the structure from the bootstrap website and I just had to change a few things to look like what I wanted. The form has 4 spaces to be filled out by the customer. It comes with a button as well.
+To go forward with this form I have taken the structure from the bootstrap website and I just had to change a few things to look like what I wanted. The form has 3 spaces to be filled out by the customer. It comes with a button as well.
 
 * **Test**    
-When I tested the form I noticed that it would not tell the customer in case they filled out the form wrongly. I believe that some JS skill were missing in order to do this.
+When I tested the form I noticed that it would not tell the customer in case they filled out the form wrongly. I believe that some JS skill were missing in order to do this. Then, I remembered that just the required at the end of the input tag could at least do the job without a more sophisticated code as it would be with Javascript. 
 
 * **Result**    
-The result is still needs the JS code to make it work as planned.
+It works just fine when we use the required in the input tag even though I have not used any JS code.
 
 * **Verdict**    
 The form does not meet all the criteria and works as planned. 
@@ -217,7 +217,7 @@ The form does not meet all the criteria and works as planned.
 The customer is able to submit the form without filling all necessary information on the form. This is not the expected experience for the customer.
 
 * **Fix**        
-JS skills were missing to do a better job here. A piece of JS code has been given to me by my mentor in order to overturn this problem.
+JS skills were missing to do a better job here. The required piece of code inside the input tag could the job.
 
 * **Verdict**    
 Bug was resolved and form now works as planned. 
@@ -239,7 +239,7 @@ Image now shows nicely on all devices and browsers.
 On mobile devices the navigation bar would collapse but I noticed that it would not open after clicking on the button.
 
 * **Verdict**   
-After some researchs I could verify that my JS code from boostrap was wrong so I have fixed it and then the hambuguer button was working and openning normally.
+After some researchs I could verify that my JS CDN code from boostrap was wrong so I fixed it and then the hambuguer button was working and openning normally.
 
 #### Icons
 
@@ -258,7 +258,7 @@ Icons now show nicely next to each other on all devices and browsers.
 I noticed the same bug mentioned above with the button not working properly after clicking the button.
 
 * **Fix**        
-I fixed the JS code which has provided by Bootstrap.
+I fixed the CDN JS code which has provided by Bootstrap.
 
 * **Verdict**    
 Bug was solved making the user experience good.
@@ -288,7 +288,7 @@ I used the [Flyefit](https://www.flyefit.ie/) website for inspirational ideas.
 Some of the images of the website have been taken from [google images](https://google.com) and a few other images have been given to me through my girlfriend who does Crossfit.
 One of the 2 iframe has been take from [google maps](https://www.google.com/maps/) and the other iframe was taken from [youtube](https://youtube.com).
 
-I wanted to thank my mentor Simen, for giving me all the support needed to finish the website.
+I wanted to thank my mentor [Simen](https://dehlin.dev/), for giving me all the support needed to finish the website.
 I wanted to thank my girlfriend for letting me use my free time after work to get really involved in my project.
 I wanted to thank also Code Institute and Slack for all support.
 And God for make this all achieveable.
