@@ -479,7 +479,7 @@ footer .row {
     }
 }
 
-@media screen and (min-width: 768) {
+@media screen and (min-width: 768px) {
     .img-cont {
        width:80%; 
     }

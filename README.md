@@ -25,7 +25,8 @@ Thank you
     * [Features to be implemented](#features-to-be-implemented)
 * [Technologies used](#technologies-used)
     * [Languages](#languages)
-    * [Tools and Libraries](#tools-and-libraries)
+    * [Library & Frameworks](#library&framework)
+    * [Tools](#tools)
 * [Testing](#testing)
 * [Deployment](#deployment)
 * [Credits](#credits)
@@ -135,17 +136,21 @@ On contact, I have added a contact form which structure has been taken from boot
 ### Languages
 * [HTML5](https://en.wikipedia.org/wiki/HTML5) - used to create the HTML base.
 * [CSS](https://en.wikipedia.org/wiki/CSS) - used to give style to the HTML5 elements.
+
+### Libraries and Frameworks
+* [Font Awesome](https://fontawesome.com/) - I used font Awesome for Icons.
+* [Bootstrap](https://getbootstrap.com) - I used bootstrap for the navigation bar, carousel, pricing and footer
 * [Google Fonts](https://fonts.google.com/)
 
 ### Tools
-* [Bootstrap](https://getbootstrap.com) - I used bootstrap for the navigation bar, carousel, pricing and footer
-* [Font Awesome](https://fontawesome.com/) - I used font Awesome for Icons.
 * [Gitpod](https://www.gitpod.io/) - I used gitpod for better tracebility.
 * [Github](https://github.com/) - I used github for creating my repository
 * [Git](https://git-scm.com/) - I used git as version control for better record of my coding.
 * [Balsamic](https://balsamiq.com/wireframes/) - I Used it to create the Wireframes
 * [Ami Mockup Image](http://ami.responsivedesign.is/) - I used it to create the mockup image with the website displayed in 4 different device frames.
 * [Developer Mozilla](http://developer.mozilla.org) - I used this website to get the code for the carousel animation effect.
+* [W3C HTML Validation Service](https://validator.w3.org/)
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 ## Testing
 ### Navigation bar
 
