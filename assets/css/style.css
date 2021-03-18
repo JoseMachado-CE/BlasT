@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Denk+One&family=Lato:wght@100&family=Raleway:wght@200&family=Roboto:wght@300&display=swap/css2?family=Anton&display=swap');
 
 /* -- General -- */
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-weight: 400;
     padding: 0;

@@ -1,6 +1,6 @@
 # [Welcome to Blast Gym](https://josemachado-ce.github.io/Blast)
 ![Mock up image](assets/images/mockup_new.png)
-This website has been created in order to show the possibility of finding a good gym with an easy access to it. 
+This website has been created in order to show the possibility of finding a good gym with a good location. 
 The gym is located in the centre of Dublin.
 Please feel free to go to my Github profile and leave your feedback there.
 Thank you
@@ -36,7 +36,6 @@ Thank you
 ### User Goals
   * A website with enough content to understand the service being offered
   * A website with good color contrast 
-  * Information about who serves the service
   * Contact details
   * Form details to get in Contact
   * Quality information about prices
