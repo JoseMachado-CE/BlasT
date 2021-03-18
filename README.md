@@ -79,7 +79,9 @@ Thank you
   * #050505 - Black color for a few parts of the website
   * #FD1D1D - Redfor instagram icon hover
   * #4267B2 - Blue for facebook icon hover
-  * #1DA1F2 - Blue for twitter icon hover   
+  * #1DA1F2 - Blue for twitter icon hover  
+  * #485461 - Grey used for navbar and footer
+ 
 
 #### Structure
   * I have used the [Bootstrap](https://getbootstrap.com/) structure to give form to this website.

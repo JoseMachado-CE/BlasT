@@ -56,7 +56,8 @@ header {
 }
 
 .navbar {
-    background-color: #212121;
+    background-color: #485461;
+
     text-transform: uppercase;
 }
 
@@ -408,9 +409,14 @@ header {
 }
 
 /*-- Footer --*/
-#footer .row {
+footer {
+    background-color: #485461;
+
+}
+footer .row {
     line-height: 20px;
     padding-top: 15px;
+    
 }
 
 .footer {
