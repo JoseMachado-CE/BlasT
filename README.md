@@ -92,9 +92,9 @@ Thank you
 
 I have decided to use [Balsamiq Wireframes](https://balsamig.com) to create 3 different wireframes for my website.
 
-### [Desktop Wireframe](Wireframes/Desktop_WF1-MS1.pdf)
-### [Iphone Wireframe](Wireframes/Iphone_WF1-MS1.pdf)
-### [Tablet Wireframe](Wireframes/Tablet_WF1-MS1.pdf)
+### [Desktop Wireframe](wireframes/desktop_WF1-MS1.pdf)
+### [Iphone Wireframe](wireframes/iphone_WF1-MS1.pdf)
+### [Tablet Wireframe](wireframes/tablet_WF1-MS1.pdf)
 
 The tablet wireframe has changed a little bit. The schedule panels will be displayed in vertical.
 The iphone wireframe has changed only the contact button which got a bit smaller.
