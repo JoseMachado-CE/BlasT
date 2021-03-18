@@ -483,6 +483,7 @@ footer .row {
 
 
 @media screen and (min-width: 768px) {
+    
     .title-carousel {
         font-size: 30px;
         text-transform: uppercase;
@@ -501,12 +502,8 @@ footer .row {
 
 }
 
-
-@media screen and (max-width: 320px) {
-    body {
-        width: 400px;
-    }
-
+@media screen and (min-width: 320px) {
+    
     .fw-light {
         font-size: 3rem;
     }
