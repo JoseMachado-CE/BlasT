@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Description" content="Enter your description here" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>BlasT Gym</title>
@@ -18,12 +17,12 @@
     <!-- Navbar -->
     <!--Navbar from Bootstrap https://getbootstrap.com/docs/5.0/components/navbar/-->
     <header>
-        <div class="alert1">
-            <a id="topbar" class="navbrand top-alert2" href="#pricing">50% OFF. GET INVOLVED NOW !</a>
+        <div class="alert-top">
+            <a id="topbar" class="navbrand" aria-label="Top alert" href="#pricing">50% OFF. GET INVOLVED NOW !</a>
         </div>
         <nav class="navbar container-fluid navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="#">Blas<span class="T-brand">T</span></a>
+                <a class="navbar-brand" aria-label="Top Brand" href="#">Blas<span class="T-brand">T</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -35,19 +34,19 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#schedule">Schedule</a>
+                            <a class="nav-link" aria-label="Nav-item" href="#schedule">Schedule</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#gallery">Gallery</a>
+                            <a class="nav-link" aria-label="Nav-item" href="#gallery">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#location">Location</a>
+                            <a class="nav-link" aria-label="Nav-item" href="#location">Location</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#pricing">Pricing</a>
+                            <a class="nav-link" aria-label="Nav-item" href="#pricing">Pricing</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
+                            <a class="nav-link" aria-label="Nav-item" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -67,7 +66,7 @@
                             <h5 class="title-carousel animation-blast">Get the best of yourself</h5>
                             <p class="p-carousel d-none d-md-block animation-blast">Come and join in our family</p>
                         </div>
-                        <a role="button" href="#pricing" class="leave btn2 btn-lg1 btn-outline-primary1">Join in</a>
+                        <a role="button" href="#pricing" aria-label="Button carousel" class="leave btn2 btn-lg1 btn-outline-primary1">Join in</a>
                     </div>
                 </div>
                 <div class="carousel-item carousel1">
@@ -77,7 +76,7 @@
                             <h5 class="title-carousel animation-blast">Best professionals available</h5>
                             <p class="p-carousel d-none d-md-block animation-blast">Come and work with us</p>
                         </div>
-                        <a role="button" href="#contact" class="leave btn2 btn-lg1 btn-outline-primary1">Contact</a>
+                        <a role="button" href="#contact" aria-label="Contact button" class="leave btn2 btn-lg1 btn-outline-primary1">Contact</a>
                     </div>
                 </div>
                 <div class="carousel-item carousel1">
@@ -87,16 +86,16 @@
                             <h5 class="title-carousel animation-blast">number one in town</h5>
                             <p class="p-carousel d-none d-md-block animation-blast">Very easy access to find us</p>
                         </div>
-                        <a role="button" href="#location" class="leave btn2 btn-lg1 btn-outline-primary1">Find us</a>
+                        <a role="button" href="#location"  aria-label="Find button" class="leave btn2 btn-lg1 btn-outline-primary1">Find us</a>
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            <a class="carousel-control-prev" aria-label="prevslide" type="button" data-bs-target="#carouselExampleCaptions"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </a>
-            <a class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            <a class="carousel-control-next" aria-label="nextslide" type="button" data-bs-target="#carouselExampleCaptions"
                 data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
@@ -260,7 +259,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="#gallery" id="about-img1" class="d-none d-xl-block about-intro1">
+                <a href="#gallery" aria-label="first banner schedule" id="about-img1" class="d-none d-xl-block about-intro1">
                     <p class="text-schedule">Everybody</p>
                     <p id="can">can</p>
                     <p id="choose">Choose healthy Always</p>
@@ -288,7 +287,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="#pricing" id="about-img2" class="d-none d-xl-block about-intro2">
+                <a href="#pricing"  aria-label="sec banner schedule" id="about-img2" class="d-none d-xl-block about-intro2">
                     <p id="text-schedule2">Join our Family</p>
                 </a>
             </div>
@@ -315,12 +314,12 @@
                             alt="CrossFitwomen">
                     </div>
                 </div>
-                <a class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                <a class="carousel-control-prev" aria-label="prevslide" type="button" data-bs-target="#carouselExampleControls"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </a>
-                <a class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                <a class="carousel-control-next" aria-label="nextslide" type="button" data-bs-target="#carouselExampleControls"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
@@ -378,7 +377,7 @@
                                 <li>Competitive price</li>
                                 <li>Come join in the Family</li>
                             </ul>
-                            <a role="button" href="#contact" class="w-100 btn btn-lg btn-outline-primary">I want this
+                            <a role="button" aria-label="button pricing" href="#contact" class="w-100 btn btn-lg btn-outline-primary">I want this
                                 plan</a>
                         </div>
                     </div>
@@ -396,7 +395,7 @@
                                 <li>Competitive price</li>
                                 <li>Come join in the Family</li>
                             </ul>
-                            <a role="button" href="#contact" class="w-100 btn btn-lg btn-outline-primary">I want this
+                            <a role="button" aria-label="button pricing" href="#contact" class="w-100 btn btn-lg btn-outline-primary">I want this
                                 plan</a>
                         </div>
                     </div>
@@ -414,7 +413,7 @@
                                 <li>Competitive price</li>
                                 <li>Come join in the Family</li>
                             </ul>
-                            <a role="button" href="#contact" class="w-100 btn btn-lg btn-outline-primary">I want this
+                            <a role="button" aria-label="button pricing" href="#contact" class="w-100 btn btn-lg btn-outline-primary">I want this
                                 plan</a>
                         </div>
                     </div>
@@ -465,9 +464,9 @@
                         <p class="title-footer">Gym made by <span class="T-brand">Jose</span></p>
                     </div>
                     <div class="col-8 col-xs-4 col-sm-4 icons-footer">
-                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com" aria-label="facebook icon" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com" aria-label="instagram icon" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.twitter.com" aria-label="twitter icon" target="_blank"><i class="fab fa-twitter"></i></a>
                     </div>
                 </div>
             </div>
