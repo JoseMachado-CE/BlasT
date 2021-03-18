@@ -257,7 +257,6 @@ header {
     height: auto;
     opacity: 70%;
     border-radius: 8px;
-    
 }
 
 .about-intro1 {
@@ -381,7 +380,9 @@ header {
 
 .fw-light {
     text-transform: uppercase;
-    font-size: 12vh;
+    width: 100%;
+    font-size: 6rem;
+    text-align: center;
     font-family: 'Anton',sans-serif;
 }
 
