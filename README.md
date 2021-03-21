@@ -200,6 +200,7 @@ To go forward with this form I have taken the structure from the bootstrap websi
 
 * **Test**    
 When I tested the form I noticed that it would not tell the customer in case they filled out the form wrongly. I believe that some JS skill were missing in order to do this. Then, I remembered that just the required at the end of the input tag could at least do the job without a more sophisticated code as it would be with Javascript. 
+![Gym contact form](assets/images/testing_form.png)
 
 * **Result**    
 It works just fine when we use the required in the input tag even though I have not used any JS code.
