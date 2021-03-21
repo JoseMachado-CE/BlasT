@@ -406,6 +406,11 @@ footer .row {
         height: 50vh;
     }
 
+    #gallery img{
+        width: 350px;
+        height: 280px;
+    }
+
     .carousel-caption .btn2{
         width: 300px;
         padding: 10px 20px;
