@@ -150,6 +150,9 @@ On contact, I have added a contact form which structure has been taken from boot
 * [Developer Mozilla](http://developer.mozilla.org) - I used this website to get the code for the carousel animation effect.
 * [W3C HTML Validation Service](https://validator.w3.org/)
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+
+![CSS Validation](assets/images/testing_css.PNG)
+
 ## Testing
 ### Navigation bar
 
