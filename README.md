@@ -96,9 +96,9 @@ I have decided to use [Balsamiq Wireframes](https://balsamig.com) to create 3 di
 ### [Iphone Wireframe](wireframes/iphone_WF1-MS1.pdf)
 ### [Tablet Wireframe](wireframes/tablet_WF1-MS1.pdf)
 
-The tablet wireframe has changed a little bit. The schedule panels will be displayed in vertical.
-The iphone wireframe and the desktop wireframe have changed only the contact button which got a bit smaller.
-The footer content has changed on all wireframes. Now it only says BlasT@Jose.
+* The tablet wireframe has changed a little bit. The schedule panels will be displayed in vertical.
+* The iphone wireframe and the desktop wireframe have changed only the contact button which got a bit smaller.
+* The footer content has changed on all wireframes. Now it only says BlasT@Jose.
 
 ## Features
 ### 1. Existing Features
