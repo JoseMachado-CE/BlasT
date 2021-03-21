@@ -386,6 +386,12 @@ footer .row {
     color: #FD1D1D;
 }
 /*-- MEDIA QUERIES --*/
+@media screen and (min-width: 1200px) {
+    .about-intro, .about-intro1, .about-intro2 {
+        width: 300px;
+    }
+}
+
 @media screen and (min-width: 481px) and (max-width: 768px) {
     .carousel-item img{
         height: 50vh;
