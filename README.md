@@ -25,7 +25,7 @@ Thank you
     * [Features to be implemented](#features-to-be-implemented)
 * [Technologies used](#technologies-used)
     * [Languages](#languages)
-    * [Tools and Libraries](#tools-and-libraries)
+    * [Libraries and Frameworks](#tools-and-libraries)
     * [Tools](#tools)
 * [Testing](#testing)
 * [Deployment](#deployment)
@@ -291,7 +291,7 @@ I used the [Flyefit](https://www.flyefit.ie/) website for inspirational ideas.
 Some of the images of the website have been taken from [google images](https://google.com) and a few other images have been given to me through my girlfriend who does Crossfit.
 One of the 2 iframe has been take from [google maps](https://www.google.com/maps/) and the other iframe was taken from [youtube](https://youtube.com).
 
-I wanted to thank my mentor [Simen](https://dehlin.dev/), for giving me all the support needed to finish the website.
+I wanted to thank my mentor [https://github.com/eventyret](https://dehlin.dev/), for giving me all the support needed to finish the website.
 I wanted to thank my girlfriend for letting me use my free time after work to get really involved in my project.
 I wanted to thank also Code Institute and Slack for all support.
 And God for make this all achieveable.
