@@ -396,6 +396,7 @@ footer .row {
     .carousel-item img{
         height: 50vh;
     }
+
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
     .fw-light {
@@ -408,7 +409,7 @@ footer .row {
 
     #gallery img{
         width: 350px;
-        height: 280px;
+        height: 250px;
     }
 
     .carousel-caption .btn2{
